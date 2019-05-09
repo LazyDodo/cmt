@@ -1,0 +1,2645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20190509-2253-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.14.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="fv-az31"
+	OSRelease=" DataCenter Server"
+	OSVersion=" (Build 14393)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="15"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="8959"
+	TotalPhysicalMemory="7167"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2394"
+	>
+	<Testing>
+		<StartDateTime>May 09 22:53 Coordinated Universal Time</StartDateTime>
+		<StartTestTime>1557442387</StartTestTime>
+		<TestList>
+			<Test>./bin/Release/libmv_predict_tracks_test</Test>
+			<Test>./bin/Release/libmv_tracks_test</Test>
+			<Test>./bin/Release/libmv_scoped_ptr_test</Test>
+			<Test>./bin/Release/libmv_vector_test</Test>
+			<Test>./bin/Release/libmv_array_nd_test</Test>
+			<Test>./bin/Release/libmv_convolve_test</Test>
+			<Test>./bin/Release/libmv_image_test</Test>
+			<Test>./bin/Release/libmv_sample_test</Test>
+			<Test>./bin/Release/libmv_tuple_test</Test>
+			<Test>./bin/Release/libmv_euclidean_resection_test</Test>
+			<Test>./bin/Release/libmv_fundamental_test</Test>
+			<Test>./bin/Release/libmv_homography_test</Test>
+			<Test>./bin/Release/libmv_nviewtriangulation_test</Test>
+			<Test>./bin/Release/libmv_panography_test</Test>
+			<Test>./bin/Release/libmv_projection_test</Test>
+			<Test>./bin/Release/libmv_resection_test</Test>
+			<Test>./bin/Release/libmv_triangulation_test</Test>
+			<Test>./bin/Release/libmv_dogleg_test</Test>
+			<Test>./bin/Release/libmv_function_derivative_test</Test>
+			<Test>./bin/Release/libmv_levenberg_marquardt_test</Test>
+			<Test>./bin/Release/libmv_numeric_test</Test>
+			<Test>./bin/Release/libmv_poly_test</Test>
+			<Test>./bin/Release/libmv_camera_intrinsics_test</Test>
+			<Test>./bin/Release/libmv_detect_test</Test>
+			<Test>./bin/Release/libmv_intersect_test</Test>
+			<Test>./bin/Release/libmv_keyframe_selection_test</Test>
+			<Test>./bin/Release/libmv_modal_solver_test</Test>
+			<Test>./bin/Release/libmv_resect_test</Test>
+			<Test>./bin/Release/libmv_brute_region_tracker_test</Test>
+			<Test>./bin/Release/libmv_klt_region_tracker_test</Test>
+			<Test>./bin/Release/libmv_pyramid_region_tracker_test</Test>
+			<Test>./bin/Release/cycles_render_graph_finalize_test</Test>
+			<Test>./bin/Release/cycles_util_aligned_malloc_test</Test>
+			<Test>./bin/Release/cycles_util_path_test</Test>
+			<Test>./bin/Release/cycles_util_string_test</Test>
+			<Test>./bin/Release/cycles_util_task_test</Test>
+			<Test>./bin/Release/cycles_util_time_test</Test>
+			<Test>./tests/python/script_load_keymap</Test>
+			<Test>./tests/python/script_load_addons</Test>
+			<Test>./tests/python/script_load_modules</Test>
+			<Test>./tests/python/script_pyapi_bpy_path</Test>
+			<Test>./tests/python/script_pyapi_bpy_utils_units</Test>
+			<Test>./tests/python/script_pyapi_mathutils</Test>
+			<Test>./tests/python/script_pyapi_idprop</Test>
+			<Test>./tests/python/script_pyapi_idprop_datablock</Test>
+			<Test>./tests/python/bmesh_bevel</Test>
+			<Test>./tests/python/bmesh_boolean</Test>
+			<Test>./tests/python/bmesh_split_faces</Test>
+			<Test>./tests/python/object_modifier_array</Test>
+			<Test>./tests/python/export_obj_cube</Test>
+			<Test>./tests/python/export_obj_nurbs</Test>
+			<Test>./tests/python/import_ply_cube</Test>
+			<Test>./tests/python/import_ply_bunny</Test>
+			<Test>./tests/python/import_ply_small_holes</Test>
+			<Test>./tests/python/export_ply_vertices</Test>
+			<Test>./tests/python/cycles_bake</Test>
+			<Test>./tests/python/cycles_bsdf</Test>
+			<Test>./tests/python/cycles_denoise</Test>
+			<Test>./tests/python/cycles_denoise_animation</Test>
+			<Test>./tests/python/cycles_displacement</Test>
+			<Test>./tests/python/cycles_hair</Test>
+			<Test>./tests/python/cycles_image_colorspace</Test>
+			<Test>./tests/python/cycles_image_data_types</Test>
+			<Test>./tests/python/cycles_image_mapping</Test>
+			<Test>./tests/python/cycles_image_texture_limit</Test>
+			<Test>./tests/python/cycles_integrator</Test>
+			<Test>./tests/python/cycles_light</Test>
+			<Test>./tests/python/cycles_mesh</Test>
+			<Test>./tests/python/cycles_motion_blur</Test>
+			<Test>./tests/python/cycles_render_layer</Test>
+			<Test>./tests/python/cycles_reports</Test>
+			<Test>./tests/python/cycles_shader</Test>
+			<Test>./tests/python/cycles_shadow_catcher</Test>
+			<Test>./tests/python/cycles_sss</Test>
+			<Test>./tests/python/cycles_volume</Test>
+			<Test>./tests/python/alembic_tests</Test>
+			<Test>./tests/python/script_alembic_import</Test>
+			<Test>./tests/python/ffmpeg</Test>
+			<Test>./bin/Release/BLI_array_store_test</Test>
+			<Test>./bin/Release/BLI_array_utils_test</Test>
+			<Test>./bin/Release/BLI_expr_pylike_eval_test</Test>
+			<Test>./bin/Release/BLI_edgehash_test</Test>
+			<Test>./bin/Release/BLI_ghash_test</Test>
+			<Test>./bin/Release/BLI_hash_mm2a_test</Test>
+			<Test>./bin/Release/BLI_heap_test</Test>
+			<Test>./bin/Release/BLI_heap_simple_test</Test>
+			<Test>./bin/Release/BLI_kdopbvh_test</Test>
+			<Test>./bin/Release/BLI_linklist_lockfree_test</Test>
+			<Test>./bin/Release/BLI_listbase_test</Test>
+			<Test>./bin/Release/BLI_math_base_test</Test>
+			<Test>./bin/Release/BLI_math_color_test</Test>
+			<Test>./bin/Release/BLI_math_geom_test</Test>
+			<Test>./bin/Release/BLI_memiter_test</Test>
+			<Test>./bin/Release/BLI_path_util_test</Test>
+			<Test>./bin/Release/BLI_polyfill_2d_test</Test>
+			<Test>./bin/Release/BLI_stack_test</Test>
+			<Test>./bin/Release/BLI_string_test</Test>
+			<Test>./bin/Release/BLI_string_utf8_test</Test>
+			<Test>./bin/Release/BLI_task_test</Test>
+			<Test>./bin/Release/guardedalloc_alignment_test</Test>
+			<Test>./bin/Release/guardedalloc_overflow_test</Test>
+			<Test>./bin/Release/bmesh_core_test</Test>
+			<Test>./bin/Release/alembic_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>libmv_predict_tracks_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_predict_tracks_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_predict_tracks_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0162622</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_predict_tracks_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydk0FPg0AQhe/8ijnSA8R68OZBY9s0FUuongiHEVazKcyQ2UXiv5fShlCDyeK7Tfa9/TKTmfR+UAZJQ6TpE+7AKmMNfAhXsOwLyNGo0EuDQRlsSn7H8vys6EsLU6XIglE2aOpf5qs/Y1GFzm2EclQSs9FWM3kpJG8v0CubtoQrNN/PmhRKxJfMWfudcwb8JVRm4Yp7xPzYohT/wU5lwb9xxb+2vBas1AZrF+LIPqPHNTcyhzL2z+glakqr6/KUMi6YsX8Opi/NlhKkgqu9FEqccBO5ATtvj8G/7WJg2WK58NxOxnbrERTcdps1Psi/DhEEKbzmdD3GD4fD6uk0m0su9H4AnW9Czg==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_tracks_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_tracks_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_tracks_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0117199</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_tracks_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNULsOwjAM3PMVHunQiH4AAxKPAfFQC1PUwRSDKhoHJSnw+RQCVQVCcJPlO/nOpwYtckhr5pIPkIAn52FvjX7NBTqSQsUtcphWZotVoInPpTWsiT048nF9ehN3T64tFkcnFKSbBTyQP3dyjteJRU0NGbCcfZLQ64N20S+DIANvPFaR+C+7J7TxzlxYqG4xXwoBiyyhl3RsmtyrYZaNR/englSKG1uGahY=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_scoped_ptr_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_scoped_ptr_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_scoped_ptr_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0125736</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_scoped_ptr_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNksFuwjAMhu95Ch/h0IoddtwBicFhUotaTTtUPWTUUKTUrhIXXn9ZiwpMC+W/xf7zOY5dvI0qIeuIjnSAVxB04mBvuYGX/gA77TBWRTSqhI3hb22GNNLpaJkaJAGHEnXtH/MdM99xi9VWrCog+0ygV3kNx0lnzIrRJSy1f5G3DUo/HtlgtoDGzUPQtUV0XzVS2km67+Mh8D/WCXjaotXC1oWQo2EClKH/vxCkT04CDPphLanaPALdmEbg9MAGKwiLNnP13D4IahtVfCZV3G5baMvAaorv6/gmtss8f1/9dnq5F6sfBHXUmA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_vector_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_vector_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_vector_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0124944</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_vector_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVVE1TwjAQvfdX7FEOdGC8ePFQoXLQAQbQS4dDLCt2TJOYTUH89ZZGyocNgb1l9r23L5vsJvd1zGFSCJGJJXQ7YJAMwbuWOdxWB0gZIYVB0q5jDgMu3xi3eRSrTEuRozBAaNqFOgF3La7SfMXUSB3xbFkRZmUiSGDyMoQq5k2AcFzQxwNLP0ukjdGTBwk3HcipdZUPywEjDeOt4Jh6d9gXy3VZr3zEuTIbe+5LpKE0PSnI6CI1TZfwcerrOMr10eKkHqChHuMcF846TWBfgQkS6hXufJWc2pvUNNJ7TXLWvULjAjvZD9Z0isRix6aI4m9VQs904DK6z8T2r42lcn3MU4xPrifV5qAhTskTnE92pFCz8hB/FYy7H+cY5hOdzp4fM+Fu8F++cQodo3Ru+v4PbpOzkNZMNVmqEhduhHM2XEvPINPthVyLIDlcqu5lCpqJ8LhSaXscTadxf3ufHTMMfgH5x8ox====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_array_nd_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_array_nd_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_array_nd_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0124297</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_array_nd_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVlj1vwjAQhnd+hccyEBXM0qED5UuoKiBQJ8TghgMsOXZqO23TX9+kKSgJzjn1Bvfe4zvn8sa7x+vak00iJZcnMhgSC8YactQqIvT3BwmZARN0dr3r2pO5UG9MFHGQH1wrGYG0xIDtJXFN3H8oU0das3Q56ezI5nVJftf+8mcwjWKbjpU0ViehVTpTFWv1jKjI3T2JTNeNXMgDfHmRdRWKXCsuLWgv9FaHYscq9vdeE6HAkTH8JJnlSrphJQEKmnEh3IQ8gqZu+Te4U/MImvoCkdJpLlvIpzQbITfnRoY/O6azQT2D4Q24kgAF9SfeZ1WRoLCBHzZoDaN+GG0N609GYQjGNPd4iXsaxDGDdhjqwdB2mPwlmmVm1PyK5VF8OBNheSzSqYDc+Zpms6bCncpM3xMmVjFo1mxUVdG/apyDBM3DdqX+ia8beB29UBKrLBPdTjVheKOnri8ALVzBdZiXUHPDtI2D3opQIO6gtKWDUp/tULft+E4QO/F+8XEuy4/O0o7BNhbcjs9MShDu6moa90w4NsQKbLpCWGC6d1Cf2YGXryjNVxOimQyqO2U9rEfb7XSS93nJDDo/koSiSw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_convolve_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_convolve_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_convolve_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0168214</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_convolve_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylk01PwzAMhu/9FT6yQys4ceIwOjbQJECr4FL1EFYzIqV2lbgF8esJKxQ6rbSiPuXj9eM3VpxetJHBpiLStINzEHTi4NlyAWf7DWyVwyhIwzYyWBl+Uqa5Rqq1ZSqQBBxKWJUH4g4zZqrZ1BiksHm4hX1k7WkUc1FWgitVOacVrdESGq9t4m49qIWTUyjcrBffLL5zesld2d/QS35baiNor9nqdyZRfY6PKEeih4ADGFNZi/lNoXY4p3yBVtdKdI0uflHku+aWRklfjVHJUw38dCQxXOK/vRxwptp6RCt6O9VUh9JaGpyRRgnC/jWzYNwECiob5vzqv/bv+e6ba7CKom4d/8j7eZJcLT5b9ZUXBR/calvh====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_image_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_image_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_image_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0175444</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_image_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkT8PgjAQxfd+ihtlgKi7A0ZjiPFPIE4NQ8WTkNAraYsGP70Ihoii8U1t79fXe1c+6xRDWBJllMIULBpr4KyVhEmzgUQY9Bh3O8WwytVR5G0Z6ZJpRRLJgkHrlsUb3PMMpEiRcQgPW2gUt0delMkix2btJwkao7SpuVa79U8ORmOQxhmy3aBUuoqyGwY0r+pGhjw/oM7wd44WA6usyB3234gsCu2e1JUYf/2Ab4MHLcjrv1MH2PtRtFw8Uj7veewO4siMow==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_sample_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_sample_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_sample_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0150404</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_sample_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUckKwjAQvecr5qiHFhWvHtwQccXiqfQQdayFZCJNqvj3xkZKW+rybsnbmJlwUCCCXUaUUAx9MKiNhnOqJHTzBxy5Rp+FXoEIZkIduHA00i1JFUkkAxqNl11r4krmXPIYWQi7/RpyRO7LXyNPrcxSDptFnYJWB6RuN5mXCVlNk9cxX6wTdSfN5VXg6NFrSqgI/g1aZcIk4wsnQvEztCwuCr5v0MnAKMNFm/13HGMX4Z1sMQvLp/90ckg5+dUeO8h2GATTyWvqt89nT4shrQ0=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_tuple_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_tuple_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_tuple_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0120483</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_tuple_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkTGPwjAMhff8Co/H0OqQWBkQBwgh0YoCS9XBBwZVSp2SOPD3oRRV9ESre1vsl88vcTpulMHGM+d8hhEIOXFwsqaA4fMAB3QUqjRolMFCm1/UdZv4mlvDBbGAIwl8+cfcYm59qUmlsNmt4amsLoVLzmVq2Amy7FH7ylQrWnWb4OsbCjfoAs4fI2OTs5Dtwr1ZemDJDctPhKrel8HNLh51VJJFMZ8ztC0NrP8HaxuIEdQD9b/lCKENjubGKn1ffdfKwSKH7TmP+PEkSWY/1Qtf90J1B925r5M=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_euclidean_resection_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_euclidean_resection_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_euclidean_resection_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.315294</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_euclidean_resection_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytUsFOwzAMvfcrfOwOrVhB3DhUYkLTJDZaOFU9ZK2ZIqXOlDjw+2QNqsq6iSLhUxK/5zw/u3oYoobCEUk6wC0wWrbwbnQHWX+BRli0aVQlQ9TwpPReqJBH+pBGU4fEYJETdzwDLwOur5nvrVaOcWukxwuWmqIKirdn6KO+BEhfnGA05I/lKRc4Ibab2RyIb6Cziz9pCxxgzUItop/UbOzVyjVKtiioQIvNtK1pPt1pSWzvNqQ/ad2JA4aHQlCru1cjyKpeQ6EHn0Y9/0PBwZBZQu9zpUKpNR0dz1RzxoJ4OZ3BL0YGzuUZXNtDRmGS1vsQVeM1v7re4N1JIc5GH/n+dnlZrh5PrnwT0+gLWUoN4g==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_fundamental_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_fundamental_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_fundamental_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0154927</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_fundamental_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydk8FOwzAMhu99Ch+3Qyt24cZhGhsHBFSrOFU9hNaDoNae4hRen6RFVQtkdPPJkf3ncxw7vxmsgH1LpOkVrsGiWIGD4QZW3QFKJZhEeTxYAXc1v6i6DyN9aMPUIFkQtHF7/JE8uXPXUqV8rqqjHPbPj9BZMQ4kI3/nRKnhdyytZhKn6e3pfrYGFitoZBnGpQZLpkr7bDSdmjXZE7CQAhZXp1FbEefovsZpLwKokOJf1AP76rxquCJM+SP5EsDmjVkw47r1obNwU+kl8DVVGzYG5ei+BqnEs/i/1EMJc2a5nzGw7PxlNG9ZLCoTV/zp+jRexdAKglGUTDnufek6y7a3vjvfuiT6AkItQik=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_homography_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_homography_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_homography_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0148047</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_homography_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydVEFvwiAYvfMrvqMe2my2zU47NHFxiYma6pJtTQ9sUm1CPwygy/79WGs60Vbqvht87/HgPSB9bCqDZI9Y4AYeQDOlFeRSlDCqBvBJFVM+Sb2mMphw8UF53Wd4KKTAkqEGxbS3352Bw9NFn0UpNpLutt+j8cpMkxSSlxlUlV10/URoqguBYRTjeiUpKl6NX98Msa759DYiDO6gVEOHcJznBbIJQyYpDx1iNvgfAtEtAlE/gb+JI8+hcYFvZHqHWTNAG+/5kNjEoJ0YXL0FgR3meZTvXUdy8RwOBi2uO6QsLAzueyzfO6AufGtAV32uN9YeUNeb1oxKby2+kKSnX0bnVwHGad8WMudaxMvl0/jXhyPRJz9q1W0d====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_nviewtriangulation_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_nviewtriangulation_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_nviewtriangulation_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0132969</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_nviewtriangulation_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVkj0PgjAQhvf+ihtxgIi7g4kfgwkaURfCUPQkTcrVtAX/vkoJ8QMMvlt7z3vt214ybZXCriQSlMMELBpr4KJV0SzgxA2agCV+qxRWUmVcujpSJbSiAsmCQeuX1w84dFzdMzoKvO214JSXkltkCewOEdRKv6rBUlT43DMPzmmz/smBN4bCjIZfwBnAKsvliA33zWSOmebi9DtBiw2N0mEAL/wvU9vDObvD9X2hRa79s7oRS14npHcyQHMK3g96BNzO4ngxf75IYwzYHUECxJs=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_panography_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_panography_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_panography_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0182463</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_panography_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVk0tvwjAMx+/9FD7CgQrGrjtMDNiEtlXtHkIVqrzWo5HyQInZxrdfaBGiiMLmUx7+2f7bSXqztwXEa62FXsI1MDl28GmNgqtqAzk6cmGQ9va2gKk0Hyjre9JfwhqtSDM44t56deQ8PAwaoTZLi6tyE6QQvz5BZYuD8zCyQnNiFCUlWiomJkc5diwUsjD6DeWanIdre579H4ZOH5TrthYwJY6zifihYoSKLI68NLLvgsuHwi8Fb1rTX0ahMzib/N6o3TKrgr343mWR4LycD/utec9Se71/mEpdHrBhlN2giQzqgVfEo9C+p3ILWlQib+o5vg1jQpmN/EvKZmQ1yaaQi+4nFZwrpwZOy2h7vExoe4X51kF6+Dda/wRY1GGzX15VdJsk47ttE3ZgGPwCfHgYbA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_projection_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_projection_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_projection_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.013172</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_projection_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVUstug0AMvPMVPjYHVlWUaw6IPlRFahCoJ4Qihy7JVuBFu6b9/W5CRSl003RutmfG8sj5ekABaUek6AArYGnZQmV0A8tzASVaaUWQhwMKeKz1Hut+LuldGU2NJAYrOezaCXk5Nk2MfpMlK01BDunLM5xRjPoi2T045m6TsqP02G58FLi5hcYuvGbKPpHjEm+rGBtp0Os5Yw7WVxzTc4E1Y70ILkiijnWMtdobnIcwGYpv/+yoKk6MolK1WCda0SScf0l/Dc3vEB+RDjKyrSvT0/Da1TPh35FOzC7l6ntClmjCV/3hwh3/uPe3wSCJn4vcfUmUZfd3p2C+hCL4BMThA60=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_resection_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_resection_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_resection_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0156282</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_resection_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkMEKwjAMhu99ihzdYYU9gAdB8SDo2NTL2KHOqIUulTZzr++0OKcw2H8KyUf+PynmvUrIGiJNV0iA0TNcnK0/daU8SlHEvUpYG3tSJoyRHtpZqpEYPHLc3P/g4coMPVasLYkCssMW3iq/bbm/OcSjxtZ3RNBuM0LALIHaRxPcAglsWZlITLuFUbn4bNsu6vBRIw8Cp0j+2nT500Wer5avCwMqxRPvvHES====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_triangulation_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_triangulation_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_triangulation_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0160798</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_triangulation_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkMEKwjAMhu99ihzdYUUfwIMw8aCobPM0dohaR6FLpc309Z0W5yaI+08J+Uj+P8W8UwlpQ6Spghmw8gwXZ+t3fUKvpCjiTiWsjD2iCWNFN+0s1YoYvOK4uX7B/ZW500hVY5C1JVFAetjCS+VwJD+dSjZ5Swbt1n9ImEyh9tFIB4EGtowmEuMyskIXn+29td9/4I/HgUOSwzNtlv0iy5bJM3VApXgA4hR6nw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_dogleg_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_dogleg_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_dogleg_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0149773</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_dogleg_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNlj1vG0cQhnv+iiulQov52q8ihRELLgIkgRlXggomPgsEKNIgqcSFfnxm9iu0kIR3AEG+d7PPzr0zu9yHH8b1OH182e+3+6cJp/N8Ok9fjofn/vuPzWl2q4e7cT1OH3aH3ze7+nje/7k9HvbP8/48nebz3cvXN8GXyPeHp938tHqYPn76eSrXY7vn1tvnr7v5R51stT3Px815e9iXiNfXLzffbl9fa/zz5tvN0239PR03n7cvp1VTE9QvJArOxyqSz8AuThcX6mf92/19Uy5Hoh6AQQKkNpQloOPV5Tj7Qh+dpypiip4dX+L5LR5z7nhBDiE0QejFy8A3Yg7kOOUqfI6avb/E5zf4hEg9IGTIMfU8EkqmgW85ShKXO56QffouezPiw7tP63XT4DLHjicCjz2a2BP+k720fAgdSXtdCiG72OZidpD8/+CRYyLXTZYI+nDgWwyDY8TUiVpYkoX4ZLVMDZ8xuQRh4FtJtK4x5jZA0EX0fiFeuyBxaOZogwhdlLb5ocXKIr20Tu0TXojXHgsSYxc+aaUHPrVwiRyImggeEyw0BzQXoNw5RMKYBj6322q8QKi/QZsrLjRHo5FRuA9FAV0SHY/QblMO+qjHgE62JHuNBUhqpZlTRQwko+8RKxCiALA0gRQZlmTvHbIQz3dQhES11cTAUycmD5BbCugzMi3AsyNIKSsxmBCiRCYGnhtRAnkrLdriRV/zuYonHep90OhoAjlTEQPf/QDd1Kx5yUkKwjWfq3hd6p4lanQywRxBTAx8SUFbNYaaMDuEVGLiAnzUFSWkdluL6Dblg2QTA285Ru3WMAxMWgVf87mKF80scFIiltWo3ttcOPCxrFgIkSpeB6hJJpZsafosAOm7WotonYPuCCYGPhnRY7BZix/BQTEQYZH3GSkYsZQNdE0FEwNvOaJDytTt1t0ttdddgMfsxfyQwqHoi+h4glJaYsBud9be8fV1F5RWoqam0cFEDnrbxMCj3QYffbNb81HzaSFenP7zeEsmmsgJkpkz+r6upKidnjpeEgFXN6/iSb1P1vdWQ+1p5FK20ffENqsgZF+rqW3k9f+guXnd+0RSiCWzLL7UeeyY9penfgDF1ix6YNDla/ks2RR0qG2F8x2VzAhDFQNf3jD6kKQ2iy1h8a1YC0qr5xHUZMzk6ILuLdmEHvrq9ctP/3bom25gej7dXjs61rDpfDhvdrerZafS87w53n0+/LVfPVweef/jqKuHyr37fhrN/Nd36/X9ezuu1lC3+hvhcy9Y====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_function_derivative_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_function_derivative_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_function_derivative_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0119771</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_function_derivative_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVUEEKwjAQvOcVe7SHBn2AB7HqQVBp8RR6iHWVQLspybZ+32qwVFHUOS3M7O7MqGmPHNKGyNAZJsDoGU7OVo+50B6lUHGPHFalPegy0EitcZYqJAaPHDf1i3h4ctlQwcZSgs60mk2LQkG638Ad+RteZqaqS5x3JjppwHb9TQqjMVQ++sdIWAG2rMtI/JaXUbv4aC8k1LDMDyWC0ySf33SJdrMsWyS38EEqxRW9Dn+D====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_levenberg_marquardt_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_levenberg_marquardt_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_levenberg_marquardt_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0148216</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_levenberg_marquardt_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVULsOwjAM3PMVHunQCD6AAQFi4KlWTFGHFExVKXFKkpbfpxBRFQQCbrJ0Z/vuxLhDBklNVFIBI/DoPJys0Y/5IB1yJuIOGSyUyaUKNFJTWkMayYNDH9fVi7h/coUNUo62WEt7rqU9eiYg2W/gjuwNz9NSVwqnrYlWGrBdfpPCYAjaRf8YCSvgjZcqYr/l9ShtfDQXYqJf5ocSwUriz2/aRLtJms5nt/BBytkViy5/Sw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_numeric_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_numeric_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_numeric_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0156854</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_numeric_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNljtv2zAQgHf/Co7JYKN2hqJDByNO26COG0iJFsPDhboqRKijSlJ+5NeXthLbSkRSBDRI/PjxdTxx+f1YViypiQQVbPKNWTTWsL9alWx8eGEcDI4Gy+GxrNhPqZ5ANtVIa6EVlUiWGbTDuvoAt6WLukQt+GDJkscFO5TV+8fRbEdQCp6KV8wXtZSmAo4Obcqf3zGUXYxZaS675T/EFvM9fwdWi23E76PZxRd/F0fKNeLPaObgXl7SbNbdhxfv18kkYp0ENQ+Cds3c0n81aHzQQKZSxrMeXjw8VqVLkG4V52PPYE9AT5Fv1icgKJoJKDwR5WrCTdGiLgUBWY/hBARFt7RG7Vvot8qg4A6BppRnoAUQx6lUVCRqY7qNPjrYxS+lxasiCzK1Lii7zR+gsDDkiTfPAs2zHs1RW8GDk2khQdm1Vsbca5XX3BMJ50RvVXO84sKGCwfIAblWsi7JExRnRM88kQncxJLDnomN7Mo9wdVrM5F95VcLLMCKtec8nRNRlXtuyR1iVaGGJyGF3fmtHXDf/DF//BpNIY7pr+thi6SkSrpfRnBb2kxQd7O1GrhtwsuTltpMUJco6/ZPUaJyLYoaPcZPWFA6V+pl6plqUxceE5pnqDxB91Z5FETvQ83NhVk3A3k56Hfbsgh6mKuNO+HnlznvJY65X/ao3ZEb/P00TW9m+5m9NxwN/gOKLhBk====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_poly_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_poly_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_poly_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0124094</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_poly_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkL8KwjAQxvc8xY3t0GAfwEFUHAQtLU6hQ1qjFJI7SdKKb2/bYCmCxW+6Pz/uuzuxnlRC3iI2eIcUvHIebpbMJ66lU5yJZFIJB02V1KGtsGssoVHowSmftI8veD4yI/1iAvLLCUaVY4UXpDu1baumHlIk00jdY0Hn4xIG0QqMi5ctAwSevNQx++8Wr6RNrvREJuaP+vEgsBI5ROnMpt8/2xTFfjecGVDO3vDkcQo=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_camera_intrinsics_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_camera_intrinsics_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_camera_intrinsics_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0217569</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_camera_intrinsics_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylVMFugzAMvfMVPtIDaO2k9bRDt25TNWmtinpCHFIapkiJgxLTib8fIxMqtEzAfIvi5/eeLTt+bCKBfYEo8BOWQNyShcxoBYv6ASmz3IZeHDSRwJvURybdP8ezMBoVRwLLKSjyTvLc5dU1d1qWqJVg8pkpbtgGyQi0IrULL4b94QPqSP5KDFd5Lsstvuq0+q1ouamwLrbvo7Hg34Gys0maHRZIE5Mzr13i4bKX/TWG2g43eOaGJtm+hW1sD6SvG9eSPYy6gxtL65RP4O0Cp/m1row4Sh4JlUs+0vcVHvz7cf5P1bQElWthSRt6KrJszNxvoadKOODpXyI6ePDn13s3cGnAX/buXd9tIs5McNJf6MWXp6/35IFhGLaJKse7VRS9rH869gsMvW+aQcZP====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_detect_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_detect_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_detect_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.012757</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_detect_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkTEPgjAQhff+ihtlgKi7gwlGExMlgBNhqHiaJuVq2kP/vgiEgImBtzRtv3vX18s2vXKIKyJFD1gDo2MHd2tKWDUbKKTDQGR+rxz22lylbq+RXsoaKpEYHLJfPX/gkWeIjAWLDOLLCRrl3VlwkNYql9TP0BgZRZzWZTXZ6nycIGGxhNJ5k9apVbJZ57gP4b7BRLiWAzYstSfmfRyjtP7NvElkw7H8GwdYScG4T50k2ibJLvzG7uoC8QHwEJYJ====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_intersect_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_intersect_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_intersect_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0211874</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_intersect_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkD8LwjAQxfd8ihvt0ICLm4NgERGqtDiFDrE9pZBcJLnq1/dPsFZB7JuOux/3eE/Ne1VQdEQtnWAKjIHh6J19zbUOKIVKe1WwMu6gTTwjXVrvyCIxBOS0O3/Bw5drYvQBaxYKin0OT1Xvtcy62rQNahqSUdvNHxImM7AhGeEeSWDH2iRiXDZG7dPGXUmoYXE/CgOvSX7a3HPsFmWZLR+JIyrFDZbwd58=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_keyframe_selection_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_keyframe_selection_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_keyframe_selection_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.222852</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_keyframe_selection_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytU0tP20AQvvtXzNEcvNr3I1IPKTgtQgSUQC9RDht3CVadNbI3VPz7bpwqLZSHU3ku9nr8PWZmZ/HpEEuYbb0v/RokBNeGFu6aegOkO0BhW4eSRXaIJXyp6pWt9mnnH8um9hvnA7QuZNuHFz8/47xwT3eN3bi5q1wRytonC5jdTqGL5b9pNH/y4d6Fspi6cn2/qpvJLh9R+7i6OAIFKaOwaU8+0pzYVVP+yGNDrF8/Y2g/En4HCik/Wnxi/0f3gIKU4D6ap/VDcM2l9VtbxWw/yVdBkOo+gnnlHm2o/6C7fNtP+F3wrmR1jIWZK2rfhmbbff5mm9L6wt3EK9vXx9sMceRy76X/QkBKuwIg1MFWJ0m/zQvONtn3+mfcp7/3+q19hsZ69FIplns9ns/zs13DfiNRkmOBDVA6EmyENaJCKKFjU4ShUPp4A9roGxXFiAizhOur8+kNfM6/nk/P4HR8mc/GQEaAtTLIEAWZERhJagBnVBKF5ED8hgmktYz8EiOsBGSMSYKEHohfYBXBBjLOqdCIR/9EcI3VQPyMMWSojrajf0PiizEMacwH4qfUICk5ZDQ2SkkGGGeaCiSG4efaIMXjeDmNM41Pwo1AJvkFyPPjyw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_modal_solver_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_modal_solver_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_modal_solver_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0300341</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_modal_solver_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMEKglAQvPsVe8yDgh/QISo6hBU+OomHp24lPHfjvdXo77MsESFwTgs7szsz6XJABklDVNEVIhB0AhfL9W8utMPQS4MBGewM59r0a6S2skw1koBDCZr7hDw+GXOpjWLTovVSSM4H+CAbL0L1JLmhVMW6yVEVSBizVEydosdxP1MBiyiC2vmzDH3JICza+N68xILaBiU/OnPjOv/UCFZTOPnThTqtlNpu3jX03NB7AdgGf8U=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_resect_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_resect_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_resect_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0119938</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_resect_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyLtoWDWIWg0ry8zLx0BQOFktTikmKFtKL8XChHITmxOLVYjysaWT1OdQpFiXl6ChoGCrnFCiX5JYk5mlzRCgoBjsHBri4KCnCNelwAw7wmaw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_brute_region_tracker_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_brute_region_tracker_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_brute_region_tracker_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0133585</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_brute_region_tracker_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUEEKwjAQvOcVe7SHBvoAD4LioaDS6in0EOtaiulGkq1+39pgqUqhc9mFmd1hRi0HFJC1RDVVkACjZ7g623z2UnuUQsUDCtgae9Ym0EiP2llqkBg8ctzef8Tjl6nhDKva0tHp8oZOKMhOO+hR/LGyn50mYJ9OamCRQOOj+cbhANiyNpGYl45Ru/hinyTUuLqJysBpkt82XZDDKs8363fYIJXiBQyHd6w=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_klt_region_tracker_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_klt_region_tracker_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_klt_region_tracker_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0139825</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_klt_region_tracker_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNULEKwjAQ3fMVN7ZDA7o7CIpDQaXVKXSI9SzF9CLJVX/f2mApSqFvuYP37h7vqdWAArKWqKYKFsDoGW7ONt+91B6lUMmAAnbGXrQJNNKzdpYaJAaPnLSPH/H4ZWo4w6q2dHK6vKMTCrLzHnoUf6zsZ6cJOKSTGogW0Ph4vnE4ALasTSzmpWPULrnaFwk1rm6iMnCaJETLkU0X5LjO8+3mEzZIpXgDDKh3rQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>libmv_pyramid_region_tracker_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/libmv_pyramid_region_tracker_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_pyramid_region_tracker_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.016226</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\libmv_pyramid_region_tracker_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVkD0LwjAQhvf8ihvt0IDg6iAoDgUtrU6hQ2xPKSYXSVLFf29tsFShqO9yB/fc1yvmvQrIGqKaTjAFj87D0Rr9ykvpkDMR9ypgrcxBqlBGutbWkEby4NDHzeUDHo5M71bqukqUz/BUG9pZWZ7RMgHZfgOdijGId7FFg7bJNxQmM9Au+vua0AfeeKki9tvnHqWNK3MjJoa2jtgJVhJ/X9O+lS7yfLV8OhBQzh4mDYMN====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_render_graph_finalize_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/cycles_render_graph_finalize_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_render_graph_finalize_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.346102</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_render_graph_finalize_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">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==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_util_aligned_malloc_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/cycles_util_aligned_malloc_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_aligned_malloc_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0129269</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_aligned_malloc_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVUUEKwjAQvOcVe7SHBtuCNw+C4kFQafEUSok1lkCykSTV71tbKVYU2rkNO7PDzrJljxzSGlFiBTF44byDqzUaopZAyZ2ghIU9ctgqc+aqGwu8S2tQC/TghA/r25d4sLP2UhVcyQrFpdBcKVMSBulpDy3yXwI6pEW0aCwdDruxFpjNQbtgclgSTw5L4j5sSg+dCbzxXAVkXOFecBtezAMJ+3znvzeC5UiHOc1xx1WWbdavPt4+Sp6Gc6w3====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_util_path_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/cycles_util_path_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_path_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0171144</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_path_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydWDtv2zAQ3v0rODaDhQZpunUo0KBDgaZIkMkwCNpmagYUKZCnJP331cMypJjkHanBkMHvcXf+aArafDtfW/bQGqPMX3bzlYH04NmzszW7Hb6wvfDSV6vN+nxt2U9td0KP69K8KmdNLQ0wL2HdNh/AC9EWlOaNgCN/VloaUcvVhj08/WbDtQ2sV/0Nt0b/65Djdf8LQbJPn1ntr1BpWTeAyw4oqqRXddNV8abMwb55VHsJp5o4a4FsMQdTDbTwwH33eSTbXFKoZkKDdEaAzHSM8M62GSEcOQwsCH21IlEPyqXie1rG03sBRMY24ZPZXYCIgrTkhtFEC0puQ1iiPD21cQbRKjOzCC0nsiepVGKvv4SpL1aZWGP92hgXvrNwjDXyAYZMa4buypZ7sC4a2RCWLj87TTD15Z5Pi9P2RABKET+3SctQikOxm/rOcAtTKGZ9ODKMLuF5A8zcjjR21lBLKsDI5EGXmKeIWduaFwQLIxcWUDIHukz+v9Egm1tKnFxYQPlUKDLBsyt1AqVOrtswTfq9aKKPWuNqZezpju+PwkXbC6OR0Z5I4388ojyCcgS5NAeSaA+kCdetBoXXOsGyqp1I9LLnjGBekr97QWCU505qAeo1mpoZpMKeHkJYZGRzith5q1tAnyNSnAy76WbYtRmWIV5Jl61R772ENUUNX9JLei8rIkHPye1MMhXe2GsUkMKtO8/uYX3+mib+eoY5YaqlU9fsn++Pj3c/+llNzGr1H7+PC0w=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_util_string_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/cycles_util_string_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_string_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0144769</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_string_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylWEuP0zAQvvdX+MgeWrECBBcOSCAOSIB2xamqLLdxttb6EWxnl/57nEezadavcXNIk/p7eMaTcZTt5+nYobtWSiYf0LtPyFJjDaq1Euhjf4MOxFCzWW3X07FD37naEz6MU/nEtJKCSosMteu2WYDfz0Vbyzg2Vjs73LizrVdbdPfnJ+qPnWd8IxWulRbEOuRw/PqRQKI3b5EwN0lpd8KyFXuqk9ov0Fzxmity5uCK1qTl1o3RAzNMyaRhnF40iUNrrBKlc1iypykAFnvgIKss4TerTCqjf1vCTTjWEbChorEnTMJhLYDJJF7i97nC+2xhQwTFmj4wY2M16IVnm1Ssrql2zyfA6TUHttyjTmy9P4S4puHMhsPqh4dMh+OYgZJ5GrBK8pO7JAdqUrIzaKa4cZecpnQHVLakaHIkO1SmpHAthjl4ZhoWcG+BxBe5qDw0bbjzCwczAsaH8UhOxpLDIyaywsoeY9WfYibz6BeAGgJtQEHB4uDK3Ux5ANkFqWXmQENYMY4SReVIZWWemT2G4zkjzruD6sGBaDzgZMIWnOHfbIvhX6iJu812cLf58kPHwla3kebmQ4MtardBATx6OKyuzhJFrz3dTxNp2d1wcht8AaX3gB6btw0uoZni7gU9T3oCZgp3Sc6UnkFhrzQ9PbaSt7fh/iLUU1elpKKC6MdY77tEphbYj89osQuaS/h8drlucxrctC8gKwB+I6PQKrpreQlwo3h398LLTIYaBloNpGsMMdGqjfX+NBduP12NOqata/YPMAe/wPUTEayqYi/hmQLwiejSTOgrM6BLI9f+iMsaaKwNhz5OWUr0ulLPcrWdf/wKf/RCmsjNpZML9/eX+/tvX7s8nZmb1X/hPH5c====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_util_task_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/cycles_util_task_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_task_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.420891</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_task_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNULsOgkAQ7O8rtoQCIkprYaKxMFEDsSKEHHiai/cgd4v+vjwMCobodLszO7s7ybJHClGlFFdXmAMyixYuRksI2gIKaplPEq9HCluhcyo6mqk7N1pJphAsQ68qR+KBZ4VcZEjtjSQQnfbQIn23/ZxaXtRkh8PumwRnAdK6UwayEshLwTLkktkpp6EKnHAWdKa/L2/EYS0G1EiFS/6LBhk13lk/FEk+g58KHAxV/nhT/ctxFcebdfPxa9InT3Hwi70=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_util_time_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/cycles_util_time_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_time_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0137624</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\cycles_util_time_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylk01PwzAMQO/9FT5uh1bswJHDJAZIiA+t4lRVldcaiNTYU+Iw7d+vrKPaEIgu+BbFL89xnOJqiBKWgdnwG1yCklcPr04szPYLqNFTlhTpECXctrLCtt8m/jBO2BIreNI0rL8ln5ypxlL1Hixy5QgbXLVUqVSeauHGJwUsXx5hH+UfudnCrnXbEX083Y8kYHIB1k/PUt04rNUIn2X7gmKE+dCP8b4DE6N7MBy6R4qxnqIx8jsJzv+jgh/4oYzIOex5UFFsp8m42VdClzay6Ybk+Gf99qPAIWcwmR15uks/z/N8cf3ZtAOXJTu6hjfY====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_load_keymap</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_load_keymap</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_keymap_completeness.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.9221</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_keymap_completeness.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylk19r2zAUxd/9KS59cQIlsrOmTUxWWNflZbSMke7JIGTpphaRJU+6XudvX9lO6dieRl6M9e93zzlXujNoFXpYLtYZzEJXwXU2h1ktQg1Xyxt5s8IrucwqqDptCPZ1B9mKZRu2zPIN5FmxWsK3h3nyZEVlEMiB9CgIQWmPkpzv4XNRPgX0ofwRwifVaKsDeRGX2ILqrqms0CYwI/wzsvM5h/hl1eSKJQfXWRW1W2VQQdtT7WwB90UpyrwcLCn+oq1yL4HvOmP47/U1/yXzFf+OBkXAstK2fPsfMionRvIV+0a0AagWBMIjaAtpZfhxnOcdRS2L06DW6IWXdZ9GJQTWEZwEJnsvJFZCHmHWuEAQvaIlkMIYMCLQvEgAdjomcnFfMMFyFpif5LAgvW4plI1TncFQCqWcPVVu+4tLMNoifFjll4M4HIONNIB4AD4C57ppnSfOZxOBW9HgPHkYB4+OdkN2X7x3voBHB9MmGDYpSGUvY830fwxsY7u0fb59Uzbp2k7c2399EgYKbMqbvUcrXdMaJLQY/vS5yf7GRaNC29n8XPJ6Ig+wkYrex/hkjfLIhztwfoXVcqzwjhzrHJyHY8O1GtZC7BSq2cCNke77Fk+dSbfpeKNC17bjHqiQXhBtPBVIWIkB3AHSQ2claWdTEPFFpLEXaZLcnV7/z05T8gphZ2Ce====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>script_load_addons</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_load_addons</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_load_addons.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>4.36618</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_load_addons.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">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</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>script_load_modules</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_load_modules</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_load_py_modules.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.639033</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_load_py_modules.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyllF1r2zAUhq/nX3HojeNR4o8kTWrWXWxdxmD5IGvvDEKWlFhMlowkt82/nywn4K0bg/TKFj563vd8+ZNgkjIN2XiRwMi0JdwkEYwqbCqYZnMyn7EpyZISypYLCw9VC8ksTm7jLElvIU3yWQbbVRTsVSupC5JUMArN0VZK5nCfF7hIi+4uRc9cUvVs0LIVAr0sbtATSWdoxwTDhhUll8X5vTNT9IzgQWPCSkx+wqhWxoJmhEkLBAsBAhsb5QHAkgsGV/d5jOM0NrHuObEhmjfWFLWirWCmwJQqiVrLhRk3x6trEFwymMzSa+ASmMSlYI4G4C7AHSDE60Zpi9CoJyCJaxYFK39YK7vskv6itdI5rBX0QdAFUQjJkTjN8KIELDPWxH0F4lIgoTBFzRGdEhmYzyZTb/5D/+ljbx9zOYrehM0WHtuRPNKHnuLehk4nPXpIPBfdh+KmcTM5+r360VDTD5UpTm0uzm327XUPTSpeM1MVDiG5AwzU58nrcu21qmEMvRxgUtWoyxs1WDJxgewfhOGoTf6l7u8chFVKmLOT95dqnzgD4Wn6WthUuNv8Ozg07bg/jDszyK+6m6Awu0eP62/LzW6FPm++b3ZhFPw4Gsvq08x/3T7CvpXEcmcC9koD1dit+QGwdnugXDGfMBfdWnXq3RIctP9ROB8s2GJbmTx4F/5vcUMf8/cShMEvScmbmw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_pyapi_bpy_path</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_pyapi_bpy_path</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_bpy_path.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.433221</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_bpy_path.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytkM1uwjAQhO9+ihEXgkSJkxJ+IvVSUS4VtEIcI1mOvRVWHRvZTilv31DUN+iedqWZb2f32ZLTFFDOVhxZ7Fss+ATZScYT5uVSLSuaq5K3aHtjE46nHrzK+TovebFGweuqxPtuwj587/QgctqSxvmaTt7V2NSNbIrm5tXiYpz2lyi2vbXie7UQX6qoxIEsyUhNa1zz19/CNHcGOwapqJXqE1nnY0IgRS5BSWthZUyTmgFbYwmjTZ3LvMhjHu6cPKpgzik2nde9pdhIrb0TfTI2zs7X0RTWOMJjVUxhHMjJ1tJAAwYDniCE6c4+JCGyO0E42dGE7X6HvU/b29EvIfhQY+9xF+Em0hirqxp2jtmMPfxLsYN0KJBoeMKQls8455Gxt1f2A3C8iKQ=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_pyapi_bpy_utils_units</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_pyapi_bpy_utils_units</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_bpy_utils_units.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.377005</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_bpy_utils_units.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytj81uwjAQhO9+ihEXQKKJkxJ+IvVSUS4VtEIcI1mOvRVWjY1sp5S3b1LUN+iedqWZb2eeLTlNAWW24pjErsWCTzE5yXjCvFyqZUVzVfIWbWdswvHUgVc5X+clL9YoeF2VeN9N2YfvnO5FTlvSuNzSybsam7qRTdEMXi2uxml/jWLbWSu+VwvxpYpKHMiSjNS0xjV/+xCmuTPYMUhFrVSfmJx9TAikyCUoaS2sjGlaM2BrLGG0qXOZF3nMw52TRxXMJcXm7HVnKTZSa+9El4yN2eU2msEaR3isihmMAznZWuppQG/AE4Qw54sPSYjJnSCcPNOU7X6PvU/bofRLCD7U2HvcRRhEGmN1U/3PMcsy9vAvww7SoUSimOKQl2ec88jY2yv7AYUPiUY=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_pyapi_mathutils</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_pyapi_mathutils</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_mathutils.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.40341</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_mathutils.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytj81qwzAQhO96iiGXOJDGslvnx9BLSXMpSUvI0SBkaYtFFSlIctO8feOGXnvqnHZh5tudJ0tOU0A5W3JksW8x5xNknYwdHsqFWlT0oEreou2NTTh0PXiV81Ve8mKFgtdVibfthL373umryWlLGqdL6ryrsa4b2RTNkNXibJz25yg2vbXiazkXn6qoxJ4syUhNa1zzOw/PNDcGOwSpqJXqA9nRx4RAilyCktbCypgmNQM2xhJG6zqXeZHHPNw4eVTBnFJsjl73lmIjtfZO9MnYODtdRlNY4wj3VTGFcSAnW0tXGnAN4BFCmOPJhyREdiMIJ480YdufZefTZij9HIIPNXYeNxMGk8ZYXdT15pjN/hC7+xexvXQol0gUUxyq8Bkv5pGx1xf2DRZ3jjE=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_pyapi_idprop</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_pyapi_idprop</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_idprop.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.484466</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_idprop.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytj81qwzAQhO96iiGXOJDGslvnx9BLSXMpSUvI0SBkaYtFFSlIctO8feOGHnvrnHZh5tudJ0tOU0A5W3JksW8x5xNknYwdHsqFWlT0oEreou2NTTh0PXiV81Ve8mKFgtdVibfthL373umryWlLGqdL6ryrsa4b2RTNkNXibJz25yg2vbXiazkXn6qoxJ4syUhNa1zzOw/PNDcGOwSpqJXqA9nRx4RAilyCktbCypgmNQM2xhJG6zqXeZHHPNw4eVTBnFJsjl73lmIjtfZO9MnYODtdRlNY4wj3VTGFcSAnW0tXGnAN4BFCmOPJhyREdiMIJ480YdufZefTZij9HIIPNXYeNxMGk8ZYXdT15pjN/hK7+xexvXQoKySKKQ49+IxzHhl7fWHfcUONnQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_pyapi_idprop_datablock</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_pyapi_idprop_datablock</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_idprop_datablock.py"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.79844</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_pyapi_idprop_datablock.py"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzdVltP2zAUfs+vOOvD0kool44CjbZJ0MJUCRiClr1EspzEJRaundnOSqRpv30nSVcqxi4qjIdFeXDi73zn9vkkR4LJjGnoewcBdE2ZwF7Qg25OTQ67/f10f8B2036QQFJyYWGalxAM/GDo94NwCGEQDfpwcdZz5qqUGYJkJlgGRWVzJSMYRzGNw7i2zciSy0wtDTkphSB3B3vkSxoOyCUTjBoWJ1zGP9Z1MHHL4XyiWnJ5E0EqqDEwZcaOmlWqpKVcGqBQaFUwbTkzsMx5moPJVSkwHAZU4i2VpZYr+coBvBb0lm28jO45PYsrUrP9CSjpgjkTOVf4ErcFzLlA7wF8hVFO5Q3WoF6fUF6XI3gEGm5Aw03oJaMYed2WCEZRPDNMm/j66upwfPYtjA+LYkwtjU9VSkU8ZYsiroP2GoOVm4ZB8ERTXUUA7l+xIL4lcXfA9f3Nx4JqJi24bzOuWWrfu/9njGu6p6RHHgr2anR8fkw+TkmjLVU8o24fUnvG6t+o9yc4z1r0VNOUJTS9he5CGQtYwLqWmJ0AzMH2IiQ8QXlCZxz51A994+v2qPom1bywJl6orERZxzTLlCSl5cJ4RdXZwR5LBm8G4Q5wCUxSrFIbnsrgHRDCF4XSlpBuy0Dqk9VzzpqHc2VP6rlyrLXSEZwraEFQgzJw0ypFn65zTUXJVqCkqAjWoUwtdB5m3IFMMSNdC6YsareQYSMToTD1+144zkWT2w7UZvBhNgHcmSu9oDJlWFdZYmUqUBJszlDJzQBFHhTleM03GV8go4vClEz8coqNlBAoV+zPv5hn9+xe0+hHorjQbP7cs7Th9BZVo67+vVe33pxNTrmx7roTK9fgktkpcWHJbY4xsDm/g9fYpjkuHou7pXnmwFvS5ivwYmPqpfxodoO5MU2aGnY9z8Nj/fTWOEerH4jPJbfOejzUJTR++wn3E0GKihac8KxuElkfOpwQ0UGwjVV/d7iV2fBgG7P9N1tafQeyCkAa====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>bmesh_bevel</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/bmesh_bevel</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modeling/bevel_regression.blend" "--python-text" "run_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.34744</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modeling/bevel_regression.blend" "--python-text" "run_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztmDtv2zAUhXf9ioMstoHAlFw7DwVdgtZAhwRFEKCLAIIir2OmFOny4dT/vpSc9Ad06MSNxHfOuY/x3huyijxWy5sa85B6XNULzPci7LFeXcvrDa3lqu7RJ20invcJ9YbVt2xVN7do6nazwveHRbVzyaosssqQwuEU9862+NJ2omu60av4m7bKvQW+Tcbw3zdX/CibDX8iQyJQ12vbfbzHZrpzRvVEIueOXY5xTLCGBbZcMqN7FinEwAanyGj7wno6kuGeXjyFoJ1dTrbqm9257M3ZMbfWwPWvJOM8LAoppJBCCimkkEIKKaSQQgoppJBCCvnv5NkLSb2QPzEfXIjwJMlGSGEMjAhx0VbAVhvCxd9jkKfpasSC9PoQQzc4lQyFTijlLE9Rm7A8nC4uYbQlfNo0l9AWZEVvKKcB2YDP4FwPB+cj5/NzArdioEX1MH0eXdyOJ66v3jvf4tHhLMIoUpjJk8w1Z9U/nag6nyyflO163Mshjy1ixj+Et9nWIu4Jub2PojpAvaty8TzNThxd8nA7nIfIpe8QiCbj2TTLHifTkPc5ZWPnPISJ5G3+HwkpUKiq+/eD4K+kY/UHB/KAhw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>bmesh_boolean</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/bmesh_boolean</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modeling/bool_regression.blend" "--python-text" "run_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.451417</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modeling/bool_regression.blend" "--python-text" "run_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzdlU1P20AQhu/+Fa9yIZFQbIcEglsqFXCkSBBQgPZiyVqvJ8RlsxvtroH8+44ToIJDRUEtUg+WvNr5eGbesedQkS7JotcdRmi7usBu1EF7Ltwc/d6e3BtQX/aiAkVdKY/LeY1oEEb7YS+K9xFHyaCH89NOMDO1LtlIl4pKLFd+bnSC4yQTWZw1vmV+V+nS3Ll8VCuV3w9381sZD/IpKRKOsqLS2eN7A5NtYgRTEhy3oWzChSKMQxd2u6GqitCT8y5cmJJUpa/DwhiVW7q25FxldHftFYz1zLArh/ZMFsMUP0j6tuv8dzeptcYmmBiPmSW+XNDC2BV3z8gbl2BnG954oVDrZ/dRN4p6/eEeTg+Daa3RtDVBpT1Zx6Hzpq8kdNssyQrPnT1oXU3GZ5NWB0bjqC5I8gPHSNKzEBghYrAedtDHILiopWRFfgP+yqTjyWU6vUiPLl+ZeCQqhRNjlvhG1uO0cgvh5RxjjXOjVrjklO+nOh6PRuk0nRylH4bVdrQUzEN58y0ctI6uPq5FL1m+npz8CUtaXtMTxvsyT84mHyjJhuEiPWnmFW9Gwy72METzq0Uc/6ORfvl1G/2c7xfTxwG5vyam0FzaerVsc5UzjkZl0Dg5jB4OVkgqhLwBy+w8LEnSHlIoBSWc7yQBMGJTtJ5Wlt3sttBJWy29y3gQakUuE2VpdF77SrnuctXaBq8yws4g3uaWgLTgLcbRAHbAAfK8WiyN9Xne3kTItVhQJzhdH/jXP2oW8dMmwMYIjVGJLbmSnHMreMsizWyt87Vh0m86t+Sq1/J8F1azVwI/JzDdY87KoXyw4txczEzcmtrCzLCpgTN/YhVp7bhx2mIfI+sFt3MdGzNjIRSPhubzLaF25N7U/zdV+iTHcK3G5w3kl+Bi5Twt0vuKBzcOfgJR3RFf====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>bmesh_split_faces</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/bmesh_split_faces</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modeling/split_faces_test.blend" "--python-text" "run_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.11684</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modeling/split_faces_test.blend" "--python-text" "run_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyFVdFu2jAUfc9XXPWFIK1JoKW0SH1YKWzaVoqATZqaKnKSC1hz7Mx22rGvn00oI2lo/UTuPefk3GAf3zDkKUroepcBuKqI4SJog7smag3n3X7S7+F50g1iiAvKNCzWBQQ9P7jyu0HnCjrBoNeF6V3bWYqCpwbEU4Yp5Bu9FnwAt4OQhJ3QctPomfJUPKtoXDAW/bm8iJ6STi+aIUOiMIwpD19+WzNhqeHMkBhd69LK+cTv+Mr3PJ/R2NeotPIzkSKjfOWrnFEdLUmCKrItb0tzRlIKOYARX1GO0Br+HH4bzVvAhQbyRCgjBgZLIUElaAF3hBeEtcAlHEiangoOGdkARzOYFhAjUK40YXZQw0JuBdK283C9X48wKzg3nqDTh61LWEqRQXf7AIkZ0nMeTvfrETq9Q1xpwXmA2fcJbNcjzDMh9Hpe/CWco3cWmG657r82dME1iplqv6HxhgC4wWvymBHdSD1oNBLvOdv8QKlVlbYvN5ImYmz/yCplV2webpTlelPFb0vNnp5QMpKPGc1rrv433iLmlDf4qzUbBW5xJUmKqUVU2YedRuooXeGY8NqMZbGRsIi+CMp1lbArNhLmRZwOheQoP9OpYLXPWe++I3GM3EyjWc6wkXjQOboxp4w0bctteU9678CVQHPIzeluO1V89xA+lSItEk0Frzr5JITCGKXcLCTW7FR74J5fvJ5kaGJ3hiuqNMobExJVhXq3ca4jPuujHWbV0YwCSbgHbv/ygGocTT/O56Nb6/eF6TkLaTZtTJJf4GbC0CWaMLUqjAEjSrcHDsCYmqQ92ae4LOPeV4mkuVahCfKCoQpN6AoeFZoy5eWbkw/AbHCf9TofTPLu8taxX8UQ4BqiyGwQIXUUuaVCxEmGbedu+zARemzvpt0tMBFQgsCCUmglm8S8s+U4N7ub8HdBtfMPJS4Wtg==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>object_modifier_array</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/object_modifier_array</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modifier_stack/array_test.blend" "--python-text" "run_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.369556</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/modifier_stack/array_test.blend" "--python-text" "run_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJw9kstO3DAUhvd+iiM2SSSIk5RwicQGOrMqqAI2lSJZjn2GsXDsqS9A3r72ZOjOkf/L91u512gkOujqmwZKHye4aioo99zv4bK7Ftc9XoqumWCKSgd43Udoetrc0q5pb6Fthr6D348V2dloZBIZqVHCYQl7awb4OYx8bMfslexTGWk/PdtGrdnXzRX7EG3PnlEj9zhOyozf5wwzrhnkGXnKzZQ5jnLaUk/rmmo10YA+eDpbqXYKHfOBi3fKneMLy1f10UY2zlk3wMa8KYNQPPx5+LV5KcDYAPyDK82TDHbWgReYBTO6Nyyg5Aa4lBfWwMwXMJh2BQsTgjKpSeedyYQm+2VFvnsCfoUEbMX7sWJ9GBfNEcnX5NVxgVMihXK2PoDDVBtApETQ3IdqIABblZjO/u9168NQL5w6BD+myVGjHxOfNSwGpX19WM7OQeeJP/r2PEGe0FIaQDLAHTCm5oN1gbFyTWCGz1iRx+PHkw3bDHva8WRhFUEWSSjEIlJnQcj96Z/5G1Ug/wAKQcIw====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>export_obj_cube</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/export_obj_cube</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/io_tests/blend_geometry/all_quads.blend" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.export_scene.obj(filepath='D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_cube.obj',use_selection=False)" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_cube.obj" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_cube.mtl" "--md5=95832f81160f07101dc566cb286a9f76" "--md5_method=FILE"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.404274</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/io_tests/blend_geometry/all_quads.blend" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.export_scene.obj(filepath='D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_cube.obj',use_selection=False)" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_cube.obj" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_cube.mtl" "--md5=95832f81160f07101dc566cb286a9f76" "--md5_method=FILE"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzNVttO20AQfbfUf5gitU6kxJcEOxcpL5REpSoUAY+RrPV6k2xr74a9EKK2/96xHSAE2gLiAcsPu+OZc87M7uz6IGciYwo6Xj+AhrYpxEETGguiF7Df6dFexPZpJ0ghtTw3cLGwEER+MPA7QTiAMBhGHTg9bjozaUWGTiLLWQbLtVlIMYTD4ZRMw2kZmyUrLjK50snE5nly3Y+TKxpGyRnLGdFsmnIxvRmXYqY1hnPGCOKWKks4n/ihr33P83Oe+oZpo30uk3pQeSVzJgtm1NonSHNpSaa96oMDQNRc36I8QZSPovzbcV0pj10zaLdTQn/MVZV0W0hiMy7ROiPUSLVua0OUsUu0MHHV1mttWNHWVPGl0XdZqA3ygw8vSQ+56ordwdRhtRWjKxhvuUZPfJUVo5/u5Ojk6Pzz+ND9/TFdrj251JjfUiqTaMoE82T6vTHjOVsSsxi5z6hczb3BQpSE2rSCc1tWs0SjGzVcitGE5Jo1UVCRRYmWVlE2eg2eV0YsTF4jjgZRv9uZ9cMwDmZBLwzCjEZxTNNOPyaDWS/eEOMiLWQ2mhx9HePOO7NCcDEfgvt2au6iruPDCDX9LyX3vXOq5Fwxje0DEHhB8OEdDqBRT4IANKPwC7anTfh28AXGlRooc0GiV0nmES3blr7X7d6zhLEX9+5ZOtFuVLe7G7Uf7kZFd3nXz7+zn3DB9QIPw5XiBtcebjoX5AzcT5iN6zkP4Z9ieRZ9XcJtAS0QcrVlL4hhiuOe2JITBk+n2lrnG9ZHkF5kccreYdrmZqd1ys17bimtnN9OTzkXilBWXg7QKKQ2oBjyG6B4WkNOtGkOUfgElcDe3+6BaSEzmzM9JVkmRWINzzUe23styLlg0I3CFnABTBA8+J1yeTAARpAkvKhkJo0aIRGkQEnH1eREmkl5XY2VkmoIJxJqJyidMnDpmiKn6zgHmz+CS8uN8wc3GaP7====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>export_obj_nurbs</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/export_obj_nurbs</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/io_tests/blend_geometry/nurbs.blend" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.export_scene.obj(filepath='D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_nurbs.obj',use_selection=False,use_nurbs=True)" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_nurbs.obj" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_nurbs.mtl" "--md5=a733ae4fa4a591ea9b0912da3af042de" "--md5_method=FILE"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.374399</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/io_tests/blend_geometry/nurbs.blend" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.export_scene.obj(filepath='D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_nurbs.obj',use_selection=False,use_nurbs=True)" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_nurbs.obj" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_obj_nurbs.mtl" "--md5=a733ae4fa4a591ea9b0912da3af042de" "--md5_method=FILE"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzNld9P2zAQx98j7X+4IW1ppTY/2gbWSnlBUI1tMAR9jBQ5zrX15tidf1Cqbf/7nKRANdgGEw9EebAv5+99zmdfDjmKEhUMgncRdLQtYD/qQmdJ9BJGgwN6kOCIDqICCsu4gdnSQpSE0TgcRPEY4miSDOD8tOvNpRWlcxIlxxJWG7OUYgJHk4xkcVavLfM1E6Vc63xqOc+v3+3nVzRO8gvkSDRmBRPZzbiGyVoN7wKJ060pa7mQhHGowyAIOStCg9rokMm8HTRe+QJlhUZtQmFVoYPG6AEQtdC3Co8ACh1QeDtudynAa4R+vyD060I1CfeFJLZk0lnnhBqpNn1tiDJ25Sworvp6ow1WfU0VWxl9l4HaKt/78NTUXJx2p+4k2iWt1a1sJILVxnm6V1mRfvenJ2cnl++Pj/yfb4vVJpAr7XJbSWVyTVFgIIsvnTnjuCJmmfpP2LU29lbLqeQtqhv5Pasx186PGiZFOiVcY2NrXNKZsth1gFWZ5FpaRTF9lrjPLVkZ3kqm5GA4JDiakxFJxjGScRGN40FJhmQejQYlbiO7ki1lmU5PPh27c3hhhWBiMQH/5VbBd5ynR4lj/FeK/mvvXMmFQu0uF0AURNGbV24AnXYSRaCRwg/YnXbh8+EHOG7ooM7NBXqe5B6A2bEkd3jt83fIKRNML103WytmXMng5vqBnIM/k8pq+Cik8QPvfpDHWJ4E0ea7i9EDIdc79ooYVMzVcwcnjh4faqcoN1EfUPovi1cffNSWm9/OfX3SLi2ljfPLvRDeTBGKdd+HTiW1AYWOxwAlnAMn2nQnLpGpI4O9P7X4rJKl5agzUpZS5NYwrl1X3usBZwJhmMQ9YAJQENfXvbpcbgGkkOesarDzTquQC1I5pNNmcibNtP4THSsl1QTOJLROUDuV4NMNdTF9zzvc/ui/WWa8X4VsoaI=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>import_ply_cube</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/import_ply_cube</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.import_mesh.ply(filepath='D:/a/1/s/../lib/tests/io_tests/ply/cube_ascii.ply')" "--md5=527134343c27fc0ea73115b85fbfd3ac" "--md5_method=SCENE" "--write-blend=D:/a/1/build_windows_Full_x86_vc15_Release/tests/import_ply_cube.blend"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.372492</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.import_mesh.ply(filepath='D:/a/1/s/../lib/tests/io_tests/ply/cube_ascii.ply')" "--md5=527134343c27fc0ea73115b85fbfd3ac" "--md5_method=SCENE" "--write-blend=D:/a/1/build_windows_Full_x86_vc15_Release/tests/import_ply_cube.blend"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1VFtr2zAUfvevOOvDnEB9Td20hrx0TVgfGkZb2ItByLLciCmSp0tbM/bfdxy7HQxG10GxHyT56LtJxxeSq4YbyOOzFGbW13CazmG2o3YHJ/mSLQt+wvK0htoL6eBu5yEtkvQ8ydPsHLK0LHL4cj0PWu1Vg0WqkbyBrnc7rUq4LCtaZdWwtyGPQjX60ZKNl5I8nZ2SB5YV5IZLTi2vaqGq5/EgphoxAgBq7u0AldAkS/4BKkGo5GU8+ov5E4coqin7dm8OUiOlqW+ExtWWMqdNH1lHjfMdrnD1ENneOr6PLDOic/aZ3yZmQn7+EEWj0t8Vjltnk3EVBZBhHnc9VuJrvFr9CDdX26vbz+vL8OfHuutj3dlY7DttHNlzu4s72c9aIXlH3W4VvgDHcSJFPeELTSYi2SfM15xQy4QY9oZzJNo3xarIl9niBB+WL1uWcrpcZFlRnxVt3TYLysYy5ESpzer203q7xqVHIxyPDsmt3hD7JGu0gSrIICo+wOAp3nilhLovIXx/9yHyXV8WyPVaAOGHILj1jHFrWzTVw6gDr/B/8IJQkMZpdgqWM5TwFXNEy3AxRPCmG/xKlNx66f5IcvA8OSnh/SMO7gxlfOgnmO21dWA448oBo1KCpNbNSxS0QQo4+lvrVHvdeMltRZtGK+KdkBb75OgYpFAcFkV2PETKFUXniAaAG2AFhExWyGxEIIru+Ty4Pky22m2GDl8bo00JWw1jEQxFeK6sZ8gZBsHF9Ov77oULfgHCx7EW====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>import_ply_bunny</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/import_ply_bunny</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.import_mesh.ply(filepath='D:/a/1/s/../lib/tests/io_tests/ply/bunny2.ply')" "--md5=6ea5b8533400a17accf928b8fd024eaa" "--md5_method=SCENE" "--write-blend=D:/a/1/build_windows_Full_x86_vc15_Release/tests/import_ply_bunny.blend"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.389714</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.import_mesh.ply(filepath='D:/a/1/s/../lib/tests/io_tests/ply/bunny2.ply')" "--md5=6ea5b8533400a17accf928b8fd024eaa" "--md5_method=SCENE" "--write-blend=D:/a/1/build_windows_Full_x86_vc15_Release/tests/import_ply_bunny.blend"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1VM1r2zAUv/uveOthTqD+bJymhly6JmyHhtEWdjEIWVYaMVny9NHWjP3ve47dDgaj66Hgg/T89PuSny8lVw03kMerFGbW17BM5zA7UHuARX7Ozgu+YHlaQ+2FdHB38JAWSXqR5Gl2AVlaFjl8vZ4He+1Vg02qkbyBrncHrUq4KitaZdVwtiGPQjX60ZKtl5I8rZbkgWUFueGSU8urWqjqeT2IqUaMAICaeztAJTTJkv+AShAqeVmP/mL+xCGKasq+35uj1Ehp6huhsbqnzGnTR9ZR43yHFa4eIttbx9vIMiM6Z5/5bWIm5OcXUTQq/dPhuHU2GasogAz7uOuxEx/j1fpnuP2y+3L7eXMV/vpYd32sOxuLttPGkZbbQ9zJfrYXknfUHdbhC3AcJ1LUE77QZCKSPcaiVJ8P58I5krRNsV5yWtSr4uxskaY0O6eM7S/yVb3aN2m+4JSObciHMpv17afNboOlRyMcj46prd8Q+SRptIAqyFFQfMTBK7zBnVD3JYTvaz1EruurAnlecx9+CIJbzxi3do+Oehg14Lf7Rk4QCtI4zZZgOUP6bxggWoXLwfqbPtvXMuTWS/dXhIPhyUYJ75ttcGco48MEwazV1oHhjCsHjEoJklo3L1HMFuHh5F/DUrW68ZLbijaNVsQ7IS1OxskpSKE4nBXZ6ZAnVxRdIxoAHoA1EDLZILMRgSja8nlwfdzstNsOM70xRpsSdhrGJhia8EJZz5AzDILL6Wf3wwsX/AaDG6xM====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>import_ply_small_holes</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/import_ply_small_holes</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.import_mesh.ply(filepath='D:/a/1/s/../lib/tests/io_tests/ply/many_small_holes.ply')" "--md5=c3093e26ecae5b6d59fbbcf2a0d0b39f" "--md5_method=SCENE" "--write-blend=D:/a/1/build_windows_Full_x86_vc15_Release/tests/import_ply_small_holes.blend"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.563217</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.import_mesh.ply(filepath='D:/a/1/s/../lib/tests/io_tests/ply/many_small_holes.ply')" "--md5=c3093e26ecae5b6d59fbbcf2a0d0b39f" "--md5_method=SCENE" "--write-blend=D:/a/1/build_windows_Full_x86_vc15_Release/tests/import_ply_small_holes.blend"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy9VE1r3DAUvPtXvOZQ70L8tRtvdg17SbNLe8hSkkAvBiNLciwqS64kJzGl/73PayelhdKkh4AP0vNoZt7o40JyxbiBRbiOYWa7ElbxHGY1sTWcLc7pecrP6CIuoeyEdHBbdxCnUbyJFnGygSTO0gV8vpp7le4UQ5BikjNoe1drlcFllpM8yYe1rHgQiukHW+w7KYvH9aq4p0laXHPJieV5KVT+NB7M5COHB0DMnR2oIhIl0QuoIqSKnsdjfyF/5BAEJaFf78zRaqA06ZjQWK0Iddr0gXXEuK7FClf3ge2t401gqRGts0/6NjIT89OPIBid/kI4bp2NxioaKIZ52PaIxM90avvd3386fLr5uLv0f7wv2z7UrQ1F02rjiobbOmxlP6uE5C1x9dZ/Jg7DSIpy4he6mIRkHzVE9YVtCMZRa8ntwODPUa5h6ZYu482SL1acEp6WK5ZuqrKk1YLELC6Xm2qEoTIaZtubD7vDDksPRjgeHPPbviL8ydzYDLr4zdWRDbf0ulNKqLsM/LeKwkfVq8sUFf+Vhv/O8246Srm1FXbYw+gGT/V/q4NQEIfJeg2WUzTyBaPF9uFiiONVR/tl6XLbSfdHuEMAU1sZvFXq3q0hlA+3DmaNtg4Mp1w5oIgDSaybZ2hrj0Jw8rcLljeadciYE8a0KjonJLL3J6cgheKwTJPTIV+uCPaPbAC4ALZQFFNDxWxkKBRp+Ny7Ok4O2u2Hd2BnjDYZHDSMIBhAuNW0p6jpe97F9EB+64TzfgIA7cN0====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>export_ply_vertices</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/export_ply_vertices</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/io_tests/blend_geometry/vertices.blend" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.export_mesh.ply(filepath='D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_ply_vertices.ply')" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_ply_vertices.ply" "--md5=37faba0aa2014451b27f951afa92f870" "--md5_method=FILE"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.375212</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "D:/a/1/s/../lib/tests/io_tests/blend_geometry/vertices.blend" "--python" "D:/a/1/s/tests/python/bl_test.py" "--" "--run={'FINISHED'}&amp;bpy.ops.export_mesh.ply(filepath='D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_ply_vertices.ply')" "--md5_source=D:/a/1/build_windows_Full_x86_vc15_Release/tests/export_ply_vertices.ply" "--md5=37faba0aa2014451b27f951afa92f870" "--md5_method=FILE"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzFVNtq20AQfddXTPNQ2RDrFiuODX4JiWmgCSXJo2BZSSN76WpX3UsSUfrvHVluAi2lFwIBPcyOZs45c9jZc4mqRgNZdJbAxPoSTpMpTHbc7mCeLapFjvMqS0oovZAO7ncekjxOlnGWpEtIk1WewafradBor2oqUrXEGrre7bRawcWq4EVaDL01exSq1o+WbbyU7OnslD1Uac5uUSK3WJRCFT/iQUwxYgS3yAl3UDnAxTxOYxtHUSxFGTu0zsZCszHYV7Et6had6eMHNE5UaKN9PgDgZmufQf5CU0ya4ud4NCrCJ4TZrOTV563ZzzxTmvtaaMo2vHLa9DPruHG+owyqh5ntrcN2ZisjOmdfhjAH5F9+/Md0RDX69YIydo1Zat6jRF1PlfQZr9Zfw83VzdXdh8uL8Nv7susj3Vkar9PGsRbtLupkP2mExI673Tr8B99G6gMUobBnsXQIp8Tf1jmz2psK16+FO6KuTxYNL3nCOV3Q+TxPy2zRLPOUN3yZNWeL5EBOJu50vd5cfbykm3HrlRJqu4LwzUwJScb1RU4S/jRB+C54NMKRXng9fqi1wsEJtF66n4wYtN35imppf97MoeDe8AqHzYNJq60DgxUqBxWXEiS3broinRtihqPfLVnR6tpLtAWvaWDmnZCE3h8dgxQK4SRPj0EoQMVprQgNgBpgDYyJdi+LTUYEpniL0+B6f7jRbjO8BZfGaLOCGw1jEQxFNYRVXxFnGATnh9f2ixcu+A5fKuJc====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_bake</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_bake</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/bake" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>7.96896</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/bake" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1kU1PwzAMhu/7FT4WCTV03ReVOEwakxAIUCdO0xSlqdtFpEmVpCvw6+kHQhtQTuCbnfjx+9rbq8/YQVwpJVQOE3BonYXM6AKCLgHOLPqjLcRP99DFDhL2jDTBA8oRxKhSNJiCQVtJB8JCKrKsKSnXcwx2GUcQBcuxQcF6eXN3vTpFgTcOxnMo7NkPw4yu8r1Ca9vuLh5uv72Bd3kRDABsKYWjGeNo/0bzERC8MAyHlL/ZkilaM4fGiXzvfjDw9Qt4wWQ27Xgw2h7faeg+YJjywZsvwtY/OO2YbMXA43Kz6UWP+1b/1MpH9RyksK5ZSIJS19HQiX5fQ7vXUhsHlh0alNMRZEJiRAhZRYSRgCSVkCmthUp1bem6kpK+LGb0wIMpjVFi44R0egh/5RItMR3Q37tC/gOd66JkBnv8O4o6+vw=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_bsdf</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_bsdf</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/bsdf" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>32.5468</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/bsdf" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1mEtr4zAQx+/9FDp2YYmbps/AHgrdwsKyLCl7KsUospKIylaQ5LT99ivZTeukGlnFk9wSJr//jB7z0MOP988jmdVVJaolmVwTy401ZKFVScbNF8Ko4aOjBzL794c0n0dCK2GU1WotWE7NSjytSlEdkRmvCq55QTQ3tbREGFKIxcL9VNkWqXnzjXEiSrrkjkrubn79/nkLUsnx1eSElOZbgge5VvVydRg/Wrb35iLuzZyzp5JWuMuxhTr906s0/QMsxi7a+TKexH1ZLl9QHXA8vwM9K+CsDhD8OxWI23NrwwdrvnH8Tp9+VllKagzeGdvFkePL68s+TaSlDUFdzJeBvW1NMc7SO8lHGlNCDbJ7ckJnt7UyK6rXSIoNy5+g65CaMuYVMW3vA4H7sW+GtsQhbNwHxOuzwwOy854VbuCfbtAEjhvnCm1RXmsc08INtC//vpmVTkEYRq3lGjPgfa7z4iLQlwDWuEsRpsdPX2NScZccLH+xtR5eqCCwX5lg5WrMsdLcB8zpnQSq1lqLiom15EXOFLWDJfd4wCnsWBV8QZ0OpvAb0mmfnUW1S26plIJhim+ZQF0JWOZN/3QIH1qyX4f4Hph6bmq9oGz4cQ9SgSzQsbWaVqYUxgg1vN4AXL8OgakEsEbJihE2cD4cTlNmvRFa/Q0wfTYIrEXAEikng2TglnbsMTZiF5ekiR/4Tg0K9AQdU5z8vw/02ThQ+6xyBliDWRfme5/AGW9M2tqEI9eyfHQhNX/xZM0cb7jaBwuop43Fmmo0tZYFnNgNlxs+XKjFfGQkcvTQffcC37uIc3BEjienZ+c+mbjNcHXHu0j+3tzft+yT9r+jXcUt8juRwljn+JxL9TxNeGFKfoTqf6BJfcKJvnYkPIUEXy5ic37/GwAwQEfnanAEjo+KKYNkdOZKGMigUSY+4iR1/V8YDdIad7jFjnbCfd1qbzOX2O0ltGNJPUpyI9Nb5xMbgVjZ7C+p8cIHlyiwmoCJH8zRoZzqU/NaaUsM3bgsZ9WULITk0yzLbqcZzcbZvBayyJ9FVahnk9/VUuYvVxf5ho3P8xmX3KXZrEmVGXtlkptMN8DRypbyAHSmSh9Ni/8PWeFStQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_denoise</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_denoise</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/denoise" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>30.0171</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/denoise" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1ktFKwzAUhu/3FOdygjRr182t4MVgDgQR6fBqjJK1p1sgTUpOuunbm7YqCmu9qblLIN938uff3X+vPcSVUkIdYQ4WyRLkRhfgNxtIOaE32kH8+gzN2kOGSgvCJNN5UhxkZUYQo8rQYAYGqZIWBEEm8twdKdviDDa7FEEU/IiOCJvV49PD+ioRxuHyLoSCbq6rT1wMZ61hTrgI/G5hyYmQBlO2OBjPwmDRLaUS00ry4V76BXTiYNYTL9FwT3UsF+5d2KM7a1kVOJixxdVSf9JIYbT7WfeumoPhyoNxsFxOp+4eWG25rEeGl9V22zom7V3vt/mTeAtSkHXzH1DqS/RHx7vL2NeZ/o/t/IK+pOrgS20sED+74a2OIBcSI8bYOmKc+exQCZklF6EyfaFkU0mZvC3myTn1Z0mMEl14rEmApe+pRGKmAXonW8h/oKe6KLnBFv8BSXCPbQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>cycles_denoise_animation</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_denoise_animation</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/denoise_animation" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>5.93206</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/denoise_animation" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1j81OwzAQhO95ijmml7hpFAiROCAVLkiAUnGKKssk2zaSfyrbaeHtcV0EFLVH5razO/Np29tvLdGMWg96jQKenHdYWaOQxwGdcJQlLZrXJ0Qt0ZM2g6NgHvX8+GMinRXXFZSbnGYU2fWfRLSQ3hSXzvlZ0Mkq4MrpLOaRtL9/uvQLrNAZ0rIqpyEGb7yQBzhe7haL+/kB/hXNEjS0NdbDiR314bTGapBUM8bmNRMsZ2/jIHu+H3Rv9o4/jFLy9+qK77q85A1JCjwWu1j30UlyzMbCbOOV/If2zqitsHSs/wQLppRE====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_displacement</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_displacement</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/displacement" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>14.1951</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/displacement" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lU2L2zAQhu/5FXN0ocSxk80X9LCwu1AopWTpKSxCkceJFn0YSU7af1/Z2pZN7GRd4ugmoXnekebVaP3l33iBVakUV1tIUnBonYXcaAlJPQFGLQ4Ha1j9/A71eIGNdjuScVsIylCicgNYocrQYAYGbSkccAsZz3O/pFzAGaxnDIFLukVPhKf7r98eH1qJECXTdAbSfjqRLmVBDrx3/VYsRPPxuJkD07KgBkkVdLXye5g/dDIaNQUzznx5CKMSDb1a8YgG0Wx811TUeW6ZQVQk7L5a9BTodZN5U7egShsqaV+yJzyIFpNJU9WZEvv1U4PorZQuOiiTAOtdP3AhSseLtEsallGB2Q3yCGB/HdMWo5/bTuzOv5HbpfPGr0zZUqQ9MqfNcZzevPrVqxM6j64a4KzlitoiHFXbPlx7gV2nE3ohDNbvP4+znwYYqoY+bpKMpj4QnHZUVKeBH/fPz0FxFGKHx3n8RX4Gwa3zx9mg0IflB19Gl45+vvde6JGXO9nFhvOB/To92m4W/i+jdzVhZ3tU1iu0cWDp3tfL6SXkXOAyjuOHZUzjJN6UXGS+ICrTB0ueSiHIr/mU7FlyR1Yo0Bsmroses99MoI1NDRzunBQ3oL+VPuD/AAcEBJ0=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_hair</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_hair</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/hair" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>31.0185</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/hair" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lV1r2zAUhu/zK86lByO28tUksItCVxiMMVJ2FYqQ5eNEIFtGkpPt3+/YZiMNduy2ru9kW8/7ng8d7b/8f55hV+a5yg/AZuDReQepNRmwegFSOJxO9rD79QPq5xmOQlke0/sM3ZGr3KOVWPgJ7DBP0GICFl2pPSgHiUpTepX7BmqxXkkElYkDEhce7799//pwgwsBY8s1ZO5Ti40DmowTVaP0yuTjeLiCQrCm1NzQ91bkLlPOjevgEkseFosODyp3XhDN8vI0jvwlsYp+3qFcCOuV1MjJaWKyccSvoBDcRV2Rj134y5oztpqzDt3xC35V6zvWIl1YlUtVaEx4vUfEztiicisNpqmSigTfbWeQCqUnmkX9FhNlKZ/SaEMfDqN7e4mvTLGWQXG9K0MtaOBJiohkrRilf4aIQLBZtrRyXXvqevqPu6NIzLlGvNtSB5fStFq0zLOO33msyw/zUsPJ0HLT5AUm+8ubqfNGAsJNIZhHm1k1m8AbL3QVD/y8f3pqJKNm7/SlkX/Iz6CV8xRPjNqct4Nuov6rYsgo75m3/RPx5uDqmS1vOOuvOYKvPxOD2mR4L1WNWhjrwYkTFdebLaRK4zYMw4dtKEIWxqXSCT8ryuTZ8cdSa/57veInyZZ8hxqp6mHdIaH8Qzl3oa2B06PP9AfQpcmqUBr8X4ynPtI=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_image_colorspace</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_image_colorspace</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_colorspace" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>4.7646</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_colorspace" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1kVFLwzAQx9/7Ke5xgjTL2KYWfBjMgSAiHT6NEbL02gWuyUjSTb+9aStDxfo083aB+/3u7r+5P78t5I0x2lQwhYA+eCidrYF3BSjpMU02kL8+Q/e2oGtZoZB02MsEcjQFOizAoW8ogPZQ6LKMXyb0IIddpbBvjCxYLR6fHpY/WDDik/EMan/1m45sdSFZJLWqCR9SGWuEsmTdhYRnXtRyPh7SelftLmRsUa1s2u8IyeZr3EMxg5MmhdF0fnMX2yDYIKmdFF4W63WPH/et6XfpJ/AaSPsQR98h2VM2GPRAKH+ebmjL9mAH6wJ4eYzmYDMoNWHGGFtmTDLOdo2mQpy0KezJi1VDJN5u5+Ko+EzkSBgXZ934TL0rQs9cB0z3oaZ/oCtbH6TDHv8BLqch1g==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_image_data_types</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_image_data_types</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_data_types" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>16.3809</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_data_types" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lsGK2zAQhu95ijmmUOLIdpxsoIeF7UKhlJKlp7AYxR5nTWU7WMqm+/aV5F3jtMjyYeKbjfx/0ozmn9l/6Z9n2J3ruqyPEIagUCoJRdtUwOwLZFziYraH3a8fYJ9nKCt+xPTwppDNYId1ji3m0KI8CwWlhLwsCv2pVp1Qi/Ytw+5HrQWP99++f334RwvmCWNQyU9OWsqSQ6komZ2iJsfLMXJEyIwMbTVKIz9n1J9zsxkjx4TMWNNW4zTyc8b9OdfOm1SIhiuqhHZiMGfsbj0KpIpsJ6aBceSM7RFrbLnC3MaECHwtqiMcxn6+3S35BqyqcYvEtYMXLgqqFFstmN9FozSq/Fotnd5l6LSIE89+v6eByn+Hkiaw0RQ2afX+L6z3kThDPlhOleehpGGHU9i3ikFv2Ot4Sgyobt9Q0pS4sykOF94qBr2Zr5dOq3lfTurpV5qjo8FwJXEKPnw+YT46pdcNJU3+fXeP0vmGkubcXXuD2X44qjpHVGh5vdC+mYQb0/lBNYoLs3X4ef/01HGW3b+La/qH5GcQpdTtBQ4omsvWOTJ6ZknnCOaZzZwjjWfWcU8l7vHB398nNGBnr3S2NZ/vT+sLPuec5qw+75nmTV778Fa4rwp9lWKK79S0CiR/1XdXNVsoSoHbIAgetgEPWHA4lyJPL2WdNxeZPp6FSP9skvQ1Y6t0hwJ18QS2AILsLRMog9YKLl5UJW6gnjXVibfYyf8FzeGs6w==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_image_mapping</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_image_mapping</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_mapping" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>30.848</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_mapping" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1WF2Lm0AUfc+vuI8plKjrRk2gDwvbhdLSlix9CosYnWwHxg+ccZP++85o3GpN670L40NAmXvOzT1zz3zsP7w+T7BrioIXz+AHoJhUEo51mYPXvkCaSLZa7GH34yu0zxPwPHlmcZ5UlY6KU8Er/VNKPXoBO1ZkrGYZ1Ew2QgGXkPHjUX8qVIdbs/YtZR2OhoaHu09fPt7/HxqWQRBCLt9hc4m96mwxHwOvcwrX1JziUgpD0j7fPqPGw3KzviURUUg6ggj5T5oDT63U1QCbit7g87CmcQ+u81lHtHxwpR+O1sUPAwIJnqAF99wNbu4IXrCktlHPDtkUE9fC3Xhb6v5Bf0tGqPKPhxsNXI/CQ+C44IezGrOz0qW0ZNVjcFRdxyEWxJ4S6Lyi2Xaehs3JcT1Ct3WwIZLRiHrp0aW24N1DaCO7T8nFougDBw9nW+/vIKwOYxf3XJ+kBImlY/AC7PS1YuYjbLMjw85va4Y+wTd607NCSvEWWx+HknguHPNVrlnFEmXJ2sfgur4bl5aPBdmnBDqv29lN1DRsTpDrEWY/Ti0CjegifTS7qvdxFqx9CG2affaAMAywKPrA2gO0Clhrvza+bUKSEiSWi7XfYKevFWsfYZuFnJaNPbnH1j5rt5MopBRTa/eIFSDx9Fu3bjmHxX54IfPPixiok2IFS98NfXNKBlWqRJgU4fvd42NXRC/qglfj2vaf34PgUmmJDkyUpy32uoNyLYI7XuMP4cgDHeHchz810M4X2I0pZQOL3v2Qtkn4xZW2DGP9m+LzaJMguYlxq6qsFcjkRbeDKrdw5IJtHce53zqJ4zmHhossPvEiK08yfmiEiM9REL+k3jreMcF0QzptTznpr1Qw6dQt4OqnyoUF9LTMq6RmHfxvbehWFw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_image_texture_limit</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_image_texture_limit</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_texture_limit" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>18.7714</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/image_texture_limit" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy9V8Fq20AQvfsr5uhCsSRbkmVDD4E0UCilOPRkglhLI2fpSjLSKk7+vutVbdaElh3DRDcJ9s3TzOx7M9svl+cJNkPTyGYP8zlo7HUPVdfWENkXKESPs8kWNr9+gH2eQNZij7nGVz10mCtZS53v3jRGE9hgU2KHJXTYD0qD7KGUVWU+NXqE7dC+FTjCGGR4uPv2/ev9f5Fhms5TqPtPnkzyKN1JzcdnxDeslpE/qwUbn4VhEi8JTJjzs7jkZxX7s4rZ+MTESsXM+YnP+VlGCz9WlWqF5mmgERqm0TxOCGR4qjVCGzJx5lmvPTbYCY2lzSwLqesQpmoJmZv9L2ZyNoZhl3qW8VmoiqelLLIpYhit/KnwNJRFPlFJPJXoIIrffyvNY2hugJNueyqAe4xRnt6HgekqycgceRrLDWByl3h6nnvsY3J3ccAoDEMySZ6r4AYgGKJ77GOSFzvJo5FktMmrCDDN0huYsdb1bJ2rmHZb+WzADWB8KaMpHZ8nuAFMJcMxXzDZulvRP7ch6EQzM72ZpcvTSgK61UKdfgt+3j0+jlHD8ezsmssZ8jMo2RvHhh2q9rj23DlIq4nnnE4a5z1nW9II7Due+k6O1GGOPF95Dj+egwnNj29xb5pr3eJxNGm/xQiI4kxUTJqO0dTlJF+HttPQixdz33W7hkoqXAdBcL8ORBAFu0GqMj/KpmyPff4wKJW/Zmn+UkRJvkGFRnACKxpB8VYo7IPOAs6eda0Y0Iu2PogOR/g/DM81CQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_integrator</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_integrator</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/integrator" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>5.99441</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/integrator" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1k1trwjAUgN/9Feexg2Gs0FYLexCcMBhjKHsSCWl7qoG0KUmq7t8vbXdztW5Ql7cEzvfl3NZ3n2cDyzLPeb6FAAxqoyFVMgO3vkDMNA4Ha1i+PEF9NsAkZUWh5JFnzOAAlpgnqDABhboUBriGhKepfcpNw1JY32IEG7JFi4PF7OHxft7GgTP1Pcj0zakzFiwraCTNrrfvCwVO4PtdroQrjM2VbA3M+oJxl4/nVzV+4KzTm7adFTpjkUCqaltv608gOK49bbHesUQeKBOCZuxo21BaoO6tP48Fxx+fabBRLNcFq9C0CeztbyPBmQST2g2D9fdt69oysIghON7UHdkwMNIwUX0cnmerVWMZNaHDU/c78BYE18ZmEKGQh/DSknUtRPfoXhqxy4Pwlz79VsuqPYVUBjTb2wSNDCHlAkNCyDwkjLgkKrlI6MF+SR40XZSWf5z4dB+7Hl2iQFtfUleJxK+xQE1UDRzuTCb+gR7LrEqgwb8BJHbGuQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_light</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_light</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/light" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>10.987</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/light" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lF1rgzAUhu/7K85lB8M0K22dsItCVxiMMSy7KkNSPdaw+IGJ7fbvl+halWl7MZe7iOd5T97zsX04n3dwiyThyR7oBBRKJSHM0xhoeQGfSbRGW3DfXqA878ByZJ7g+0iNwMUkwBwDyFEWQgGXEPAw1J8SVXFyLG8+Ao/ZHjUK1sun58dVGwVjejebQixv2mIBl4olaiC9Fs1ITuzfkjHKaCC9GgXjBZ1f0vJ2zP8ImY8Dip6ZMLZph7mxpvNMoFfXQf5dvgOqraZ2l9Wnf+ucB0ygATUJLDr8z1I+WHM1WKa1prMuuVwxMYCSwfQUVWaRjhzoTU1YOaK0SzAdysIaVTpYFQxG2+a66l1TkLPE0nET+97YAirVJplc4XW52VQCP7FWW/aEvAWhF4TOfociPTp9u+rCTumbxKsTen2Grjd5bzt2dU9/nftKYqprYkGyg/ZIpQ6EXKBDCFk5hBFKdgUXgXfkSZAepbcuhPA+7bl38OnMc1GgLhIpjSb+ly9QkrwEWpGKxT/Q/TTOtIEV/hvDM0CG====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_mesh</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_mesh</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/mesh" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>22.2181</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/mesh" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1V01r4zAQvedXzDELSxyn+YY9FLqFhWVZUvZUilDsSSqQpSDJSbu/fsf2Nmlr+QPs5NSE6XtPo5k3o8dv588TbFKlhNrDZA4OrbOwMzqBMP8CEbc4GjzC5s8vyD9PwFOnbaK1e2ZRap1OmNIm4dIOYIMqRoMxGLSpdCAsxGK3o5+UK2AN5t8iBJHwPRIy3N/++Pn9rhYZhqvZFBL7pVKJFclBYp8KCkQYzhdhPXO6jRO0JJm7JJWyVw2fsCkP43k7NVIo5OYqYgpoGC6mnsxEJJOqqTPxfxwYhmPf1UepOSJLNEEK7H7Mj3B06dNJmRNj4bKY7mV2RoLhcjwrMx20UI6ybLv31AWKTrVc1HGx/LIPUrgeWS+gVDBjz02+C83D2I5H2Oe538NmGjwN5LjaEyxLhLVUdCw9duYvQxL3YlXNrXSftDkaVddiWc1ocqo+Wc+IZFShxxze4uwBI+q0iCIZWUsPDVyJnFmmp+p98YX6q0gpoOk+VjVZcUbQX7KH4i8hZsy+uscXlxokqdQcbIt/+/BSHyh5z8xXiZ7Q3DCuIiJHzhygUclOq+4eWIakLKw8bl8OvEYOzrikYt6oQqVm20MdljGzhcozBTyR10jCBbhiGh2FFVtB8+KVCWWpj/qYRT5Q4g/HtfwHbpyI+rADHyg5QujZcU7cIUXsn7vX/wWKlrjF8qaOjGkjuu+Mn/CIdrYscgyDx/dPnsqnDhiuRjCcTMKbLDngtOMyUw2/bx8eCpZx8b+jj9xvkF9BCuvoCFuU+rRu+cBpeIW0fiC0Xd69u3bdSlyxv1btXM3bYJttrWmjqll9GvaTlstD28HeMH2bR1PL4dXk7638v9Ef2xlos8U1m1BV+9a2dWYTB20cWH6kPnN6DTshcR0Ewd064EEYbFMhY3YSKtYny+6putnLcs6OUThjG5RIjR7kzRpEr5mMwOSAo2eXyCugRzqhE2MB/w+Yq9rw====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_motion_blur</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_motion_blur</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/motion_blur" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>18.1113</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/motion_blur" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzNlt9v2jAQx9/5K+4xSB1JYAWKtIeuHVK1rZ3o9oQqyyQHePKPyHbo2r9+TmjXAoFYgkjLWyD+3Nd3vvN3+unf8wCTXEomFxBfgEVjDcy1EhCXL5BQg53WFCa/bqF8HmC2WhJjMTMkyfUKicGFQGkNiVowQZmixhQ0mpxbYAZSNp+7n6RdczWWbwkCE3SBDg3jy5tvX64PoyGIo95HEKbtKabXnJieEzMYRofEcCYbSswWuchL1PWXcsq0bJGLrPT6u1ISKlBT8qyUIDOea5KhNhkmlq3waDWH4BAMz88r9JTVFMoyJcs1x4vYJrrI/d5u5DnPWboRec5kSqRKERIlMiVdvBFcqZynIJUL7f6Gm2u4+3yVz7ATRXGLpusFZEllypFo5LTgBeMCbpiAu9lvt/82fNgGqYyUewmuXmN9xafgjX0GPyeXt/fju8n3dvt/lnZsvXbq4OoVV9RLlCcqxbnSgtDcKiOUssuj4+/hQjDoxjUqXBYzfnzbVDAh6HcrukU4Oisb/qQtU40tptngYleESSg/bcvuECG4iAYVkZe5tahfrgCXMOqCHR+9iuoOYbdWgdWMysUJTkA1ttBQlf+Xj4VaOadAXoZu4iLhCUpxAF7oGfrqcTIaEuOYxYio8B/V3xtL9elOSQXbLy+qHLcN1WkDXnN2N5c0UKc38p5RXv19I3V6zy7UrN0ZtKbvTfdesw2ayo6bg8MoLrwUWGUpLzYDPy7v79cBo/XazqaMV+QZcOYGawoz5Opx5Ouwfc2vpzH1NI3+bq7GctXc8F4XcO0d6XOH1dwzHheBz6D2H6Ge88179PgPBc+O9W6molEz5ZrK0JU73laNnHnkOArD8HoU0jAOZznjKXl0jlI9GjLOOSd/hn2ySuJzMkGOrr/CskfC5CnhaEJdAjtLK3gD9MI4U41r/F8FkT+d====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_render_layer</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_render_layer</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/render_layer" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>8.91823</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/render_layer" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1k11rwjAUhu/9Fedyg9G0Wmct7EJwwmCMUdmVSIjtqYaljSSpzn+/tJUxnVbBLnfJyXmf8zl7+jlziIo85/kSBmBQGw2pkhl41QViptHpzCD6eIPqzK0ZrWUnsAMR5gkqTEChLoQBriHhaWqfclPLKKxuMQLP2BKtEkxGL6/P4wMluPMGwwAyfX8GRbVR8hNpxgwqzkR76GNlG0rgen9DUYLtUNFUsKWmrndzAEd6FusG/iVst2Vst8T2h5ewvZaxPYv1/P4lrN8y1q+KfAKrVyyRWxozE6/sdybpmml9M/20LNwF+9ShM/u9hufWDxTLHesVeGWjwEjDRJkAvI+m05rk1q7OIX8v+ACCa2OzWKCQ2/DMHly5Ho1D3DhqjQPR2LZrqlo2ay2VAc02NlUjQ0i5wJAQMg4JIx5ZFFwkdMtz663ppBCCfgWPdBN7fRqhQFtpUtWLxLtYoCaqEnRWJhP/oB7LbM0U1vLfvVjO0Q==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_reports</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_reports</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/reports" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>42.8727</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/reports" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1l1FvmzAQx9/zKe6tTJqCjbExkfYQJalWrVurpJ0mNRUiwe3QCFRAmu7b72ymdt0u0x48nhIDv7/PnP93vnn3fN3Ccl/XZX0PQkBvur6Du7bZAXd/YJt3Zjy6geX1J3DXLVyJVLN4BEtTF6Y1BbSm21c9lB0U5d0dDtX9wGiN+7c1UO7ye4MYOJ2enS/mLxgI0kjArnvzp0YkvGggPtCC0ohZqjzE4TAQJKmiNDiPPcThMBCoiFMaUZzIjHtQGUAQcB6xo0KRL6HICqmUEhJcKg8yFoMZJmNSQyvpQwMx+GXoDIt16kPDYjCLI3KtZBQlHjQsBjVQiNJQLPWhgRhcq4TMYsWZ9qBhMTaxZEKJaBH7SCyLwUAkueW1in18dIuxtqJJjSRlPjQQYzXotdLKiwZi8IMIQVqKvZvtNtW+9SQ1wKwgbS1pKtRo0bZNiwMTWHyZLS6vzi4+ZdPZbLFaZZ/PLs6ndmA0LQqcSIcPsSfGFnM9x03wsSn2lbFvzifrfM3Xm31ZFdmhrIvm0GWn+6rKnrTKHrdcZktTGSyg601Zr59/Vy7KsXkyI7iuv9XNoQbj5nMyW05X709+j8rOGOOJxdF4MlQvW7PtPazhKx7KanIZJeM+aqfDWNehHEEyNCUfGoixrkNVAcmk8FCfHcZuJMo97U0v9fknCGOJ6fWyt72smAMdMzjJlIj9xONAdq/GlMsN970E5EBWKDkSkfRg2Q7juidOeZ1kCfdQ4RwGApnS+ZymzM+3cSDMaUbntL3t5dM4EOokpM9EQmn7irsuPjyPQRDFZGmUQjEPZcthcFaa3GlCSx/uZzEvJyAY3fx6Ljt6HoM2r8cQxFGi7IvQN31e2SnC5XS1GtjD4934taKIhuG3UJVdjxPfmKo5TKiDGXWQog4+1EGFPlbQZwCqZadabKolplpYquWkWkSqo6M6MKpjotqO460IVWD/WnSpGknVNKoG0RWD9nfajWnrpJyO8iXaReg9T+04aofYjfbQtD10+SPmbN9M4K6szCQMw/kkzEMe/kMPFrrED7fft5XpwtYBx1/7XfUf6Ntm95C3ZsD/AMyf9Jk=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_shader</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_shader</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/shader" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>14.8799</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/shader" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lluL4jAUgN/9FefRhaUXHa+wDwOzAwvLsjjskwwhTU+dsGkiSVr1329adXE03mjtW7X9vtPkXDL/9v96h1khJZcLiMdg0VgDmVY5xPUNMGow6Mxh9ucX1Nc70DzhKC1RjInCcCU7MEOZosYUNJpCWOAGUp5l7idptziN9R1D4DldoCPC6/OPn99fvETojiZjyM2XK2aipNgQoRgV7QdxAK/iGZ3Gk2CJzcU1BbqTvueL6/9InohCt+PZsirbxGMTlP1NVLpp7tqToDuOhqcmpqSx1K12pkTa2PaJ5ozDp1Mj5ty0kqx70Jkc/XAhqMI21uw4lcWzflKlSBZaFUvClFDNk+MY6FYx7l/0ZkLR5p95DKzyZXDRWyKz7X7wlujMI0/e6EVCWKFLNITLZWFJFAway31Qt9O+mjx5NA567fsd1PkH8Q3+XhARXFtNl0pQi+3HciS4NS6Ji8fszQ5cxeGpCO/jD9mjHfie9Xj4XnkkVXzRaXwW16RUWknFG4dxwIJuHPV7tQ4688NjzdnjDGgqA/fe02hSdRqwylJRRQu/n9/etoZo+27w2btHfgXBjXXhJyjUanrlHHH7McMzr8+O8DPz9sJg9I8x79S5PBsud/ArbfZ6I7zequ5rILeV923Fd385nM3cqgqWSlswtHSpZNUUMi5wGobhyzSkYRwmBRcpWXGZqpUhr4UQZD0ekpLFAzJDgS6XwzofQ7ZhAk2oa2DwYXPxADpT+ZJq3OL/AdGxBac=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_shadow_catcher</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_shadow_catcher</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/shadow_catcher" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>21.7306</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/shadow_catcher" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy9mFFvmzAUhd/7K+5jJk0QWJuQSHuo1FWaNm1Tqj1FleWASSwZiGyTpP9+NkwVbUpsQ4A3kHzPsTHH32X99fV6hlWZ5zTfQjgHSYQUkPIig6C6gRgL4t2sYfX3F1TXM4gdToojirGMd4SjzV6itGTsBUmOc7HHnORSjaiv3z8sR8BkHoWQiU9GMUGzPSM3sCJ5QjhJgBNRMglUQELTlFTVqjlwUt3FBGiGt0Sberz//vPbw8XKMImCqYMTJEhGm1NBouQpjge02Crp7L1ZI6UsG9DzeynldTrr6jWjpxGWuUVR7dXFNZyPueLvZfUcFlZzaFZhONujIlef7tQLh3DeKqb8zqJefqMx/UZ91zfwpsYQbR2pxO8CK/FDwcpskE+orqwDycUJSkguBvRT17ePyf+j9CoPaqsW0L6+GH3FBc8JY2hTnBDNhcRKLbm2tw9F9KaeO/njBLMhren6+iAx7zFnTGmjFCupYSDlDaOYX8T4iGJDKPOZORfHA5SLfBKaP8bR8cSKTlz2xphwYs8mZr4aE01MZNLL7dXBxMQlZo7qjCWXqcTmdBsMShpMYtNqDowkZ0Qyj24dPA0DJOc88uFKNd/wlmEhevs4qwiTRVhvU7hZN/9WtP6lAFXCg0kYzEKNdiALiZk2Dn/un55qmdt6rPdWXKV89fgzMCqkmsOGsOK4tOyy+rbsXdvnnk3gNXrI7t1c977KEqid2gE3SHfHZieatTs/e1JYRyTqd7ZfgQw6H9Kdz0u7vHSJeqcENsSkDt59wSUIfFDBJYslqGUiS9/3H5Y+9gN/U1KWoCPNlYpAj6qhQadohg5xcIdWhBGVnH6Vfn78EjMifF4V9HYyYwNUj4tM+6/L/wOrFuY/====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_sss</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_sss</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/sss" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>13.1687</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/sss" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lV1r2zAUhu/zK85lBiO2myZNArsodIXBGCNlV6EIWT6OxWQr6KNp//0key3emsgeU3wnIz3ve6Tzsfv09j3C1jYNb/aQLcCgNhpKJWvI2gUwqnE22cH2xzdov0fQWhMmG0afkDBB68MEttgUqLAAhdoKA1xDwcvS/WpMh1PYrhgCr+keHRHub798/Xx3kgjTVTaHWn94r+y5ViOp+XNE9XdU5+D65rSDinIVRdSDnM7yjI47L5AZLpuIgf4N9XGeummba6tKypDkLgPc6wip/O38v4lzZO/kKuwEK94UZC+o1lF99LgwXWfZaBckV7RhFRaXsvMmANObq0XY1++d5EBNFdVPHwzTLJ2vwkasEvgS1UFL9AlyHVRmNucspnAL9LrhiPfUas1pE1P6lTlcFpGrsivFVRrUdClRyJocqfgZU7uHdR7W4ULsbSbGlcyFjLRs1xbS8CvomgrhzhXcRm1Ofa5vTuvWBUx2/RF+dnSDC2TmanaeLn2XByMNFT4I+H778NCJpd3Z2Z8WXpEfQXBtXCQ5CnncDAzuEZP19BwcnlQjx8iotvpvvXdcZxzoXuEeM9gGQuU6JotHZ/qoRPQJfpDKgHYvX7is2kDJBW6SJLnbJDTJktxyUZCju0x51OTeuqPPqyV5YtmCbFGge7Okza+EvTCBOlEtcFaZWlyAzmR9oAo7/C9xBK55====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>cycles_volume</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/cycles_volume</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/volume" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>28.4778</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/cycles_render_tests.py" "-blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "-testdir" "D:/a/1/s/../lib/tests/render/volume" "-idiff" "D:/a/1/s/../lib/windows_vc14/openimageio/bin/idiff.exe" "-outdir" "D:/a/1/build_windows_Full_x86_vc15_Release/tests/cycles"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1V8lu2zAQvecreHSBwrLlOF6AHgKkAYoWbeEgpyAgKGmUsKFIgaTs5O87WrJaCwPTuokavXmc4Qzf3Hx7eW7JppCSyzsSLokFYw1JtcrItHohMTMwPrkhm+vfpHpucSkDzSiXdKtEkQFtFphMmpUTsgGZgIaEaDCFsIQbkvA0xSVpa3wN1VsMhGfsDtAFuTz/8ev7hZsLMlosJiQzX9y4KSmejsaqBEc+y9CBj8SgQuKfSo1LRivM4jALw7NcHCFNNS7GYj7dZ5FyfbjLEoSMpqfhbN9Brri0NAFpuH2iOdOWxwKoiv5BbA/23IuOgZ+1BL7jn53S4vAz0AeOfCaLIT5bKH8Bc5wIfUDHpE0mg0l7+ekYIXoPjoTCcN5CSHMZczzGCWWRUTq3XMnDmbShdmXp1TYSLH6IVHJ482oDxRDMFmf9BEySYoFb0FxpryTeApPRctVWPq/mJlMPh3ePj4Dot61f+nH27KEtwtU3GivhIahvsLDzTrr2Q73031eosgu3nd7mKihPeeSldD4C4iZXLXXbmEFyV/NLBQfjy/l7VNz6at5NQRU2L6zP7tEFjKdr2p2Cxjzjj750WRdwmZJBHiZmFsvdM4kGtazk1TADzXNbolXPn58dFmQUzs6G91PolMW+g9qgdujJZ1u8ygTLvbmu4dBnm4h51nZ+0/eSt76T0xhRJiJIlGfXDSpewn0MLORUpamBw/XRPmR577VoosbQaiYN6jpEp+aeJWrni8I+MjI5rZmQk5u302HnVEgQY4yVspwtS7FPrLJMlBshf8+vrmp3tbkZvycRLurlr0TwamqJQKjd+rMjoPtw5jQ7OY02+8PIJ4YEd/n+CV3tLngdBOmwZHTTc/2qq0VRdCqaLvXRLxEc7nC3C9bt+nO4nxxafl9r7utjDj1uqA85Nomy/eRKW2LYFsvWqjWWgIB1EAQX64AF0yAquEjojku0NvSyEII+Ls/oNp7O6QYEYN8IqtoP4ic87SbQFeD43mbiCOixysoN1PD/AVvjYJs=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>alembic_tests</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/alembic_tests</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/alembic_tests.py" "--blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "--testdir" "D:/a/1/s/../lib/tests/alembic" "--alembic-root" "D:/a/1/lib/windows_vc14/alembic"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>6.14698</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/alembic_tests.py" "--blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "--testdir" "D:/a/1/s/../lib/tests/alembic" "--alembic-root" "D:/a/1/lib/windows_vc14/alembic"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzT04MBLl2qAK6gxDwFQwOFktTikmKFzDwFMz0DM4NiLi5/by4APccVYA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>script_alembic_import</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/script_alembic_import</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_alembic_import_test.py" "--" "--testdir" "D:/a/1/s/../lib/tests/alembic"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.611191</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\blender.exe "--background" "-noaudio" "--factory-startup" "--env-system-scripts" "D:/a/1/s/release/scripts" "--python" "D:/a/1/s/tests/python/bl_alembic_import_test.py" "--" "--testdir" "D:/a/1/s/../lib/tests/alembic"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztVMtu3CAU3fMVV9nYlhK/Mk4mlrppMrNpk1aTbCohIQw3HVQMFuCk/vvCTNovyCKVhg0gnedF4rNGI9FBW65ryP08wFVdQL7nfg+r9lpcd7gSbT3AMCsd4Gk/Q91V9U3V1s0NNHXftfD9viDPdjYygozUKGFawt6aHu56ymlDE1eyV2WkffVsO2vNfq+v2ItoOrZDjdwjHZShf88pDD1qkB3yqJtS/pPztCypVgMN6IOnXOM4KEFxnMJSHqBk45x1PWzMT2UQstsft183jxkYG4C/cKV5hMGzdeAFJsBj2jLIuQEu5YU1MPIFDMYuwcKAoIwPXKdukYQm8WVBnhwXOHDxC/LR+gAOo04AEZGguQ9FTwC2Knqd3fUVr5rKV+5YsvLCqSnGH62cNcYaUlrD5qC0L6fl7Bx0in7ZNefR/M0yqgFEAnwCxtQ4WRcYy48KzPARC3J/uDzYsE0v8jaHBwtHECSQhEwsInpmpPzQ4z2lO6U7pfvP0pGLd1lkF43XcOiTPsC6bC9XnpBvX8gfJbI5jw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>ffmpeg</Name>
+			<Path>./tests/python</Path>
+			<FullName>./tests/python/ffmpeg</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/ffmpeg_tests.py" "--blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "--testdir" "D:/a/1/s/../lib/tests_data/ffmpeg"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.46613</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\Release\2.80\python\bin\python.exe "D:/a/1/s/tests/python/ffmpeg_tests.py" "--blender" "D:/a/1/build_windows_Full_x86_vc15_Release/bin/Release/blender.exe" "--testdir" "D:/a/1/s/../lib/tests_data/ffmpeg"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztlVtr4zgUx9/9KQ6FYgcSXxK7STxtYZZOYGEHhk4fA0Kx5URUlryS3AvDfveV7GTqnWmn22wWGnAegi0fnfM/F+m3WCwWzsVBfs7i4+9/pKCJ0ugmiaJkAh5CJaYcIX/x5esV0STTVPAbYzFwRgf5OTcSZ2SFs1vwSqE0SJIRriHDjAHDJlDqACwoI3BylQY4iAIVWIkqqB71RvCgKMqKrFGz5lePJ0NglBOYToZAeTcb4wdAEVb4a6JRKe4oQYVxjIpKeW5rg1Y4RxmjFRr7pVbuYLhf9LO4if5zoEaEJLqW/HktlLAcFUxg7dkFjksyhBOz82Swn5Rk9qyUpzhdSW3gF4V1JDXvg301hS9qatSIWle1hou2RLLmaGXi5kR6rjsElUla6W7oJV5GS7Vswizb0MtS5DUj7SKqNWVdAfO2KB3PT9NRYMo895OUQsJpbm045Wv4rbVLl/xUuXAKXiVF5rd1y0RuStKqNjX5qBSR9qQ0TlJofcXTn3w52wcY+7MQPFWv4CwcgLfBagPxeJpNExJn43AFq5oyDTebGsIkCOfBOIzmEIVpMoYvnwdOIWqeGyOeM5JDW4EUtoWxe3N0T3ku7hVa1Iyhh9kZusuiBF0TRrAiyxXly92zFbOtooM5LcF2B3JBFHc1kAeqtPW97bfvB4yu2rajHGu8bXrw7IlytiX5Sv6sCc+I8jm5b4cghZpj0w3QAkRFODSrTfDdrjdcFudKS1Pqy13Ho6bh5+1UXDrXNde0JN0GvVmU4zCRYdvnFM5rfsvFPYfd0mU6iozF1nM7smBHi+RDU8PKLLq0rITUsKoeP9g/PxNckwftK5MV8dVWDSI51UKiTBKsiTf4ADa1ypyOV/d8f+9k5LnNiWiezWFy92yk2ZptMOeEXZjSFtJcCkhpLPVFZBRWpvbmAnPNvZV+a+T65vEvt/Mpr2Vbu933xkVBOWZo963Z4Np6UW2a6b+FFu9jAF6fkP8D3pNZMj1qeM+78LbZvAZva4PMpTgbhdFoPEZRMpqEo3jul7d3PcV7ivcU35vivzpaPc6PEee/vCx7rr9frsdRPDtmrs+SLtdtNq9x3dqYdNcchT3Ke5T3KP9PKP/hNPX0PkZ6/3gl9sB+x8CeTeJjBvY8+gewTTYvAns3Kg21jaEv1uv9cT19jke7EP+O2c10PxF7t3lfbJ9FL2PbhOpqspF7ZPfIPgiyt0epZ/VRsnp3EfaQPgykD8TLa8whbrCmbJ6RP5nOlNOw+9MVeHbcaknURTxw/gbKgVP1====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_array_store_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_array_store_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_array_store_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.589397</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_array_store_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylWE2PmzAQvfMr5sgeEq2BpOyhh6pUVVXttgpd9RBFyBucFpWYCEy7/fcdkoAgIbaHcokiz3tvPm3L67fdt4FVLWUmf4D/AEpUqoJdWeyBHf/Alldi7qxn3beBj3nxwvPTspC/s7KQeyEVVELN6sOF8ZCUlyX/m1SqKIWzhtXzExy/TX9h/lQccPH0ffl8vQjuPeyrOy1BrLgSWpajhZEqxsTkGqLTupEmKuqXXGgD60wsyaJstzOxNTZGum/iVT1mryK9zdaZWJFF9UF8kttSYOtE4vSr5x5DWEnF2HdCbkWVvP9Zy19ML3NpDe4iIGt4JA0PXJ8eR0jSCMFl9Dh8WiA+RsImVMSjxYL2mDG6zL0X0HQQAK5HzxotaSgxIRiaCEMVNkWFOC0+s6rM96JM7caxb4mjuCBxG7q3bwluwEjchpbtW2KBadymsRuY2g12P4+mcRva0vmNc3ZhjAq0uhp6v2+J7Uj03p78OFRUdkK/N8NE2rRXXKbFPolVmaXCp21Go1js3Iep+iHtmBrFYvWWk+P3aOf9OBgrYDG74yTsTLJgtsfoLTjWwWJCbtGcs7mc5kSLxt33jcmHSkVc8Rba7lDJY93co7VJ0CMtDpUBQdhljqx9DbW4Agy9P9ctCOmBX0FtLlQDirZzl8GZQtv/BijW/P/EtdNvgIJr0W9HTNK0bDhsnqX2DNICMecUYfR8ovI1Eq8hFGlM1qBr9RcHPRLckBQ1a30/O+8ZGk0L7Qbc6lmg2YqacwFUoXh+59g9PSjBy1la/JHOuv+ycfNFA0ou55dSGOLXd3H8IWqy00Lnzj+CcoCv====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_array_utils_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_array_utils_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_array_utils_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0122513</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_array_utils_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydlU1rwkAQhu/5FXOsB0MF6a0Hi7ZIsYqhlwaRbTMtC8lEdidW/303RoPaaGYdCCTss8+7H4SJH+tawLwg0vQDvQdgtGzh2+QZ9HYf8KUshkHcrWsBL2n+qdJqGGmtTU4ZEoNF7harM/hUqoxR22XBOrVBDPP3N9jV4nggnOMajcWIjVvVKFvx1rFVTV9bWbi7h8x2hPrIPSkK/RXsF9AXuvtS7Zi43VlCrcJnTcmYEtyITrqJ9o1oO+1G/LaQibbWvXhm7Wf5Rl65kHNSrr5+0SeYn3Q5LFY4okQoP+A3hEy0V4jD5SGzXBOjEfj3ZKv6SZMy20E5i/sfaPLL7n+on3yiN0K3I4XqqSn5Qep2Soqv/GSNuFeIYPk1WItFTaGigXNWaSeQtR1GZbpJ/ktBfNzVLnYzMIrC0yC3mdkgikbDcteHiWHwB2LGSEI=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_expr_pylike_eval_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_expr_pylike_eval_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_expr_pylike_eval_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0140293</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_expr_pylike_eval_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydmk1P4zAQhu/9FTnCAUTL92EPpbQBLS0VH5dFqDLFQLSpXZyklH+/TtomTld43kkOSKhPn5nxOK7z8fSrPJ6Du0ypSL0H7U4nSGWSJsGb0bOgXfwTTEUi91tPe+XxHISxfhHx6mOpFpHRaiZVGiQy3cvmW/CWVS7nZjL/jqO/svUU3D2OguJ4dj/YHwuTyIGI4kl/Nk+/Lbg6bn/7wWDnIJglu4i4p1WSXskl4t6wXP3tNBUxHKCgGSEe7B9EnnPczAexFml/OYeT33yBEehCvF6/IgEKkCfumveezlR6APpLvlmYNjNMu1mYDjNMp1mYQ2aYw2ZhjphhjpqFOWaGOeacgiZTU5HKV2gCVHSTEFDzK7pJCKjxFd0kBNT0im4SAmp4RTcJccIKcdIkxCkrxGmTEGesEGdNQpyzQpw3OvWgNd7BySDFD9rkjzT6Z3PFMHSeU9iBQOGtkpTOIrhsANgGDB1ZbAHhwj7g64O6B6lIXc6AuisRv1G6nAF144iSjSO0UJORsyRnQN1AxAnpKyBQeP9pUsqXM6SuvxAxYSsRtNih9mxPKwbLzW8rEXSK6C9yjugvLDOva0OQqjuZZHE6GUbKsxdyIFgoloDQQowMPUuTAzEyBIQWYmTo2Yk5ECNDQGghcPY9KmG+x3GWUHOwBDliWxloLkhskiPmLRDM+SJCR6MisZwR8xbIyhkaaAflZI0MNUddSybz3PfYAlk5+7x1jpXvZbTA8rUgJ1+vt86B+XZNlH54lluX4ijJveCK4ig9C5pLcZSea1OXwlpEDaUDgTn2P8nOWASWkT2xCCwju2ERWEb2wSJYE7xDtiFQlWfANgRY4gho5Qjv5Qho5gjJrijDn1yJwDJq2KDMVkXc+G60lggsIwftBriDuiHJM+AGuE+6JiVdpoTLlHSZEi5T0mVKtMyQ7mYIdzOkuxnC3QzpboZwN0O6myHczZDuZgh3M6S7GcLd7M3mZJ05g60bfluJ4LIXwPaCXk9ZuPchkCvdkuSq6SvKkuSq6UvBkuSqPb/c2yRX7bmrv03Cs2LVGkFPjTXIFANzbg0yxVNUPEV3EJpei3MG19EbEg0vxxYlF6qcAbck3lpLBJaR+xuk0PUU7irfk0QHYgjplSSHUOGtoRO0DK6j07MMqrvQOqbzKyiOks6xoLAp8yBNflFOzcENRkqHNn40j2XXvHtuuLgUnacx2kwuo0X+PMqXaI3jaX2nTY3jaT0LRZ3jaT0/bHUO1OaPIS71zL+H+A9ly8lBdlC2nBxqBwXlY/0FjkpFctXkmFQkV02OSEWC6mG09L5c4lIcJTkIK4qjJItfUaDyWtlFMPI9MXMxUGoXvyx/UbF4z4dS1+AyAPZmY7DTtniQ6lTEuy3s5clUCrP3qr9U68l9OfPnlzIDI9R+PZItady9v+9f5vWX39xv/QOx9g6j====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_edgehash_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_edgehash_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_edgehash_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0165238</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_edgehash_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydlk9v4jAQxe/5FD62B6IVrbSnHhBht1ErNgLalRZxcMkUopoxsh3ofvs1BLIJYHuob4T3fs8e/9FMH+oxY6MSscAF635nBrTR7F3JFevuf7A516DjaNqpx4z9FPKNi+p/wE2hJK4ADdNgOuX6RNy9a1IhX8CS62U0ZaOXIduPWf01TlGDMinOFexynwEXZqetxq+noJbdfGMrfevAj6DYm4awpWW4DbSgwWehja1tIkEPZT1ZUqbXS4vvc+wvOS7glYsSAnltsT/gWcqPcn2coQPcFlGAQ4kkZkN3JfZ3YZYJvPNSGGpCw3JNUahJX4zJSIXKrilTRi1/Rq7/AHWpgAA+F5LANCoNOYKV3EB964D2Png8lLjGgg/3/Agh5IbM/glkcv0EfyfbYu56GRoKyvlJcWOfEchTzK1De4/QidaPf+TaziOw120RBRg+lWc6P7YvgKsxmMP+T+QfUNKBvqj141MDihupfhSY654Q+3faVebLYkoApDqR6DoTLY0fl8jyTUB1VB20psQPGxsFWk9sJ+FA/Rewm7sKFG5DKikz0nBxG7Ud96cG296cT85+jHt53jgjwc4iaHFW4uC8squguLyRhOtyUUaAUohnuNAuVcLLu+rqXY29jp1cbjGaNntjd0/MFMe4fX7sGrLeeDxIdus8OuPoH7HcoE8=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_ghash_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_ghash_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_ghash_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0182652</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_ghash_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNksEKwjAMhu99ihznYQMFvXkQFRFFZcPT2KFqdMMtGW2n+PZOK0Nl0/235k++pmnCYaUI/IIooRP0waA2Go6KM+g+D7CXGj0RupUimKW8k6m1kS6JYsqQDGg0bpF/JX8wT7HUsQjB367gqciGvDlpVGbJfC7y0rdaL2p9cLqQ6U4zxseML9iMsX5LTBCrhM7/YDYLnF4Tcsz5rQ7yiP/oZMO14yjDVdHvYYMzKNPAsJFpR7T7R4NSuQe+kgjft6RpO0BJ8j7vKVvejIJgOnm85FXniTstyrnY====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_hash_mm2a_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_hash_mm2a_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_hash_mm2a_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0123236</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_hash_mm2a_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkcuOwjAMRff5Ci/pohWUNQteQgjxEBWrqkKmGKjUOCgxzO9PoUyHGaBwpSzinFzr2nGnUgLLE3PGe2iDkBMHO2s0tK4XSNFRoGK/UgKj3GwwL5+Jz5k1rIkFHIl/Ov6D/3ge0B3WWoeoYliuZnBV8lsOptOw20OXpQVQaj55DkCjCdp5dUZ9wykKcXEisUVAV+f6SH/QYsxCe7K1xj9MZfd+PCUKYgRzT302fSG0/tZ8sYrvd/tqp2CRA2i07voUGRbdKBoOLjlv/wL1DYyXpa8=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_heap_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_heap_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_heap_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0156184</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_heap_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNVM1qhDAQvvsUc3QPSrQWeumhsEsphW5RehIP6TrdCiYREy19+0bd2rok0bll5vuZmcDk93MUkHacV/wM0S0olErCRysYROMDTlRi6OXBHAU81uKd1lMZeV+1gjPkCiSqoGuuwEvRT6SNl0P69gJjFGMmPLBGfev8FMfnRR58AkzuDLQjRwNJZ+2UlPKziTTmwY9ctBR7bKWVfSmveKfIRO/QGKp2iX3X1NWJ6o0aFP6Kzh7KyOxeRm5abKHFK26E2PwIcVDxiUtsVVaxpjbuawFwfN0FNzgKZpx9iVjvaQIa97FEbJWy7Ogas10uTjboxcnmUUlytz6tBs3f4D4B4N9oGCihaL3ztl0XhbQNSvHFvfz/8bIeLWgpD5dGeoLXhyw77Icxf4mh9wNI1215====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_heap_simple_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_heap_simple_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_heap_simple_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0126291</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_heap_simple_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkzFvwyAQhXd+xY3JYAtn6tKhUqIMlZrKVifLA4kviSU4EOBU/felTuQmVbG5Dd67jwc66uexGih7oo5O8AQenXdwtFpBMSzgIBzmrM7GamAr9V7Iq4x06awmheTBoc9688f8wDyjMKyG8uMNhmqGnbzqlJG4UcZ/BfVau9d/VFhwUG4ZRewIo4CgzbWXgk5xwKAmIUq8oHUzpJtpDrjujewOIjxiFPdrSUjXFlOx2iIFsZpErJJScD6dg/MRMzlOsCiCC7z2Qi5Z2qB6FDZr9Sex+v4bxMYfrKD88ZwQ/f2lqjbrn6vd+nL2DfoP+bM=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_kdopbvh_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_kdopbvh_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_kdopbvh_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0167253</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_kdopbvh_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVU0uLwjAQvudXzLEeWtqC4GUPgq6HBV0snkpZos3uFpNJaUbFf2/WrsVKauvcku8xD2bStyYyWB8QC/yBCZAwZOC70gqi6wN23IiApX4TGSyk3nJZwwKPRaVRCSQwgvxD+UBuee5zXW6PvyyF9WYJ18hun8FclXS2UB2rj0cIvBCUGbnFia1fCre6xp7K3wvMl4JXttSvyO3Sogw2i/vN4sFm4zDst7Mk8KJuw1VJheJyQMcu5tNaHYKO/l3MV607p+HmNkPp207wYksE0sTliA1bfbJ5/FyfkKX3h9V1UFBxDNp5bCef0ySZz/66/tcF7ALdqxn0====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_linklist_lockfree_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_linklist_lockfree_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_linklist_lockfree_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.390571</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_linklist_lockfree_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUssKwjAQvOcr9qiHFkXBkwdREbE+sHgqPcS6SjDdSLLV37da3yJW5xZ2HuxmovYNMcwzIkUbaAKjYwdra1Konx+QSIe+iLwbYhhos5S6GCPtlTWUIjE4ZC/bvZCfPAOTbNcWMVC0DZRjEcF8MYEz4repPyR1ohSYjj5RoFKD1FW/mjm0HOZ7avxqeqf+Yj7ONKtdSfsr+Z+ArqEkszY/+k9RdxlUGq1WEVv6s64aYMNSV0W5UjBK663MgUT0WLlPVQMryX9NynecdcKw3zud5qL0xRH6XN72====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_listbase_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_listbase_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_listbase_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0199144</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_listbase_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNULsOwjAM3PMVHtuhFbDAwoDEQwhEUSumqkNKA4pIHZS4wOfTB6oKUoHb7Duf7YunLRIIC0SJZxgBCUsWTkbnMKwLOHIrfBZ7LRJYKZ1y1dACb9JozAUSWEFecf0Qv3kqaSktDVkM4WEHNZK26y8lZluJl8CsMROPUtUg2HxRgTOA3Lo9lpE21ONTUeCMm+GfJzdKIE1cuey/QEhw42X6jizuxt0XMxiOPjiTzp7y8v0sihbz6qnXnM+e8AqGxw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_math_base_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_math_base_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_math_base_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0123041</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_math_base_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVkj0LwjAQhvf8iht1aFGcHUStg6BS0cFS5KqnFvIhyVn/vq2V+gFifLckT+7hkkv6TVKIL1rn+gg9YHLs4GCNgu59ATt0FIokaJLCRJoMZX1Musit0Yo0gyMOLucP+K2mQj5ts7KiSCBezeCe9LkdDo06o6Uoikki5wWtUeb7kq4zn3rQ0OqAcm1vxcxYhdLbUeP/SjZkjbeighvB78esUWDDKNvC76+Y0AZ7c9UieZ2EbxMAFnX47imbWQyWy/Go6vxxLxQ39Yi7aA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_math_color_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_math_color_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_math_color_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0128392</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_math_color_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVk8GKwjAQhu95ijmuh5b15MmD64qCRaVdhd1SJGrUQjsjydR9/Y3tUqpQms4hMMk/358MmXhcRwJhgZjiBUbAyrCBs6YchmUCR2mUL2KvjgTmGR1kVh0rvKeaMFfIYBR7xe1F/MTMJV/3R8pIixjC7QrKSBr7fjj/+KJFtAupwBPr9GaVVayXHUp4e4fcDLrQgTM66If+3rreuql0Q0+nruiGsgsdpKikLsuMXVc2+VGaWg1a9D1tXPE9sd39aSuojRz+baUFJpbZQLjNBVtX70S/KOLm1LVNG2iJ/rOPfdFmEkWzz0cL/ut88QdjeCqB====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_math_geom_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_math_geom_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_math_geom_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0122107</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_math_geom_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUT0PgkAM3e9XdJQBouwOJhgHjRrQiRBzasVLuB7hiv59+TAoJAbf1va1r+2L5x0SCEsiRSn4wGjZwq0wGmZNABdp0ROx2yGBVWbOMmvLSA9VGNJIDBbZLfMBuTdTS76fUjRaxBAet9Ag+aS9QFk+mI0i9INI6TzDitlitx5hwmQK2jrjoyNM633/Vxg0dELjd7ZUYMMyc8R/b2SUhXs1TxLxt0m/zIFCktfXqQ7aL6JoGdQfePd54gVnNJqP====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_memiter_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_memiter_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_memiter_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.907262</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_memiter_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVmk9v00AUxO/5FHtMD426axrBgQOCCiFQQY0Qh6hCoTVtRGNXjgvi25N4/6S0eTMTX6p2dn/dnX2Z+Fmevy7Xpbt4aJplc+N8mLq+Xvdr97NrV84Pv7irxbqejObH5bp07+/aH4u7KNfN72XXNqu66d267o8f7p8MfkJd1atlX3ejubv4eu6G6zL/cXLe3m+EeH3++L/gxidutT7aP/Fsdd//Pfnu98/OKkd4iPAKIkBEUBAVRFTSRjDDS5BwOsWb2erKuQR4LkE5F4TwCiJARFAQFURU0kYww0uQre9wM1tdOZcKnkulnAtCeAURICIoiAoiKmkjmOElyNZ3uJmtLuUYPhgvnQyEeAkSMCRIkApDKm07hOI1zJBY7IgU0Ca1Tqc41U6nUq5BjNcwgWCChqkIphI3xTheBA05hjcWR0DU29tFZ36vJxECZrdt15uErELEh8YGRA1O/9Q2N+b8JFIPzBuTJHIPTEJWmQcmIGrUA3N+EqkH5l1RErkHJiGrzAMTEDXqgTk/ibwO7Lu6Igu1YFN2Oq0HG5JVXhM2o8hu7Fk+GPdTSVTywSBkleeDAYiakA/G/CQK+QA8YPfHKQGQBwwxZIDtAZseIwB4wAAxAoAH7N48JQDygCGGDLA9YNNjBAAPGCAHAKoE2lyUzz+sBopJCQAqgiJyAKCqoJAYAcZNYxKVfDAIWeX5YACiJuSDMT+JQj4AD1iflhIAecAQQwbYHrDpMQKABwwQIwB4wHrElADIA4YYMsD2gE2PEQA8YIAcAKgSaJNbPv+wGigmJQCoCIrIAYCqgkJSCwEDgrSUuYfAEUEgsY9AIUEAqZGAMUEQqZWAQaF4YTOKLPQaKCwEL2xCVpV+AwaG4oXNKLLQc6DQELywCVnV+g4SHFJtAM6jAVLvgcNDqRFA2elCfpjPOYos9SAWZacLfYgFyarSi1iMIiv9CPKEP9PKXQf0hGNi7wE84YjUfiBPOCS1IMgT/lwtdyHQE46JvQjwhCNSO4I84ZDSkMBKER4S7noSXC0CKncmqGIETGlOYNUoW+u7ZXOzNp/WZFmCWC1dliWIFd5Z1rZDKOyrJK/YPO/dAAj61nbXa3/ya1Y3fd1c1ZbPz8fBp1J5+PCTMdMgNw4HrNM4yufjDlgnYaZBh63TOOfn46RjiksgzDTosHVaBbln4CEnLy3VH7hWs+r3jTzAV8otw4oF/F0RN3756sVmsOvbfnF3NNJeRunrRXd83f5pRvPHL7vYL7m4btFMnv6vzWa+vJnNzt5t91zmTkb/AHwqwdI=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_path_util_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_path_util_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_path_util_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0139841</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_path_util_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydls9vgjAUgO/8FT3qQTPdeQejzuwXM7KdiDEVqzSDV9KWzT9/CCpgUvpqT0C/fu892jQvfLqONVnlABwOZPxINFNakb0UKRmVLySiig29cHAda7JIxJYm1TSDXy4FpAw0UUwP8uwGbkszquNNrnnihWT17ZNyrOvPQ5+mbKJfYMeOm6BIKmEFWY3PNwtJeg8kVX282mcHvL2AHQLMRL7F5V6Rrmpk6hfWQf/BVYRRnzjSG7lokUmfUcecpyLNEnbEBjjj9wVxKKRe4RDKF8Ac6mng9wVB1tNeYQn1Kjj4IjN5z9MISfc1UBMI1ZfkWbeqIlCqHCKqWRALqbuNDdBB/C7AuCm3HEJrOU4NxCJ7lsWJMGnKSYsgyBKuZ1zuuXkrmozlklkWT2XYQBd7ZxK2KUuGJ3h+1AwUFzCNWfTTpW2TCHWZRwlPYyqVNeUaxcpXFA7Gf9umsMoFM57yJnPVIXoA0hsXLNFC06Tv4XoMzagc7MQfeGGzhTG2LkRSGLYDFVUsJ0Ewn50qvSwcev/x6dVq====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_polyfill_2d_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_polyfill_2d_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_polyfill_2d_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0907817</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_polyfill_2d_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNls9v2jAUgO/8Fe+YHkAkhIYedqhgm6pJa1VAPSAUueRBIxk7sx22/fdzUkgzNvvZt8Sfv/fDceTNp25s4bkWohQHSKZgUBsNeyWPELcPsGMaR4PNsBtb+MrlK+Pv0yhOpZLiiMKARjOsqyv4b2kl+e99yXlSDDbwvP4O7dj23o9WqmTiwHE+f7HM+3j85mQgiuGob5y65Y+aKa+sIyAah6hIEy0yTO05onGbLkSwaoEHFKiYQVr6wVLdm8wlLwUy5ZR2BJVpSqrSUNVaSFWgwoJU/kNS6ide6+Ubq9xd7AiIEnJr/KqOIAv2e9ZnCXESqlIx7k6mnaaKWtmz/IWX1VwW7nz6ENkl5PsHYVBp3HnOQ58iz4SFV7LevXl1LRGS3eMJFWeVV3ZmqC1oGrNgpwUzzNu8MwPRrVf3oHWNs3jqdF0AqmMtl4yzPParWoQq8oMMsTU6/x60bJyOM7+tIYLqbMC8cn9rfShIuLJsluU76mf0PxiiSUiA+G52m7Nfpc4ZLw+CCnGF2xanAVGmyWyS9pbZJPOgktwLbXnnjyXkTgBRdmdpMNIwfjMIu3UYG2ZYyJ+2Kf1LjfMyA4qJ0VUkW97T/XL5edH05bJyNPgDU8y8Ag==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_stack_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_stack_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_stack_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0126824</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_stack_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNksEKwjAMhu99ihz1sKEnTx5ExYOgY8PT2KFqFHFLR5spvr3dKuKkFv9b8+drkjb59K0C0oboQmeYAKNhAyetKhh3BzhIg7HIo7cKWJVqL0tnI90uWlGFxGCQo6b+Su7daVgeriKHdLeBToULxcuq5oc1nLbrvgGDEVRm6AO3hD7MhgNQKunsxTojAGas7Tv5SOcE0ATx6gPbeACblyi1j+uM0IzYGP+MrQGDsQPDX+XSgBXLcij+2wK2fUVHdSeRf+7Yr90CLSnu17FNJ7MsWy7aaV5cLJ74LcM9====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_string_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_string_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_string_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0132001</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_string_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydlUFPwjAYhu/7Fd9RDizgSQ8eRIEYiZJNwoEQU1mBxq5d2g/Ff29ZdWxkox09bNn29Hm/bl27uCvaEqKdEExsoH8LSDVqWCuZwnV+ASuiqQ6DRbdoSxhz+UG4fU7FF1NSpFQgaIrdXXYCV6QalUkKFhDNXiBvy797YYxqShQyZFIYwLbX53oArnqQ6k6TKHKaIl9VwQ33zqqGe1/ZDNc3Tt0B8h7oOWPURlkajVeVFnNIR1KlBJ8EjpXcZTRpsp5yXtrBD9KZYKjPWwvMITUncxT5xEfV5KxShdIx8y0HKJHwTlDF+70ybyNGTCRxxhnOpUp0teI6IoxZmnFaLfoMWPsqavk3xfzEFvQXxxlZ2TXBWbIl29RMGDe33yd0jV6ll/gLYiK22bbKyTtcOJ7WYUUn/8ABJ+LTIyPn/LXzLTMz3XxNn/l0hP0DJiw9/jKugCPcMuBhS5R3QA7XLhPu/x6u+o2rRtNejJSobiK/zQ5Y3uub93hQRITVJDO06X0cDx8P7+G/Zxj8AliFmpA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_string_utf8_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_string_utf8_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_string_utf8_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0124325</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_string_utf8_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">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==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>BLI_task_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/BLI_task_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_task_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0140112</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\BLI_task_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMsKwjAQvOcr9mgPDfQDPAiKiPigxVPoIeoqxWRTkq3+vrXBUkXFOS07w87sqHGPEvKGqKIzZMAYGE7e2ed80AGlUGmPEubG7bWJNNK18o4sEkNATpv6TTw8yTpchIJ8t4YOZbeRK7S1c2bB6Fs2YrP8wMIoAxuS3wZRBOxYm0T8l5xR+/TobiTUsJYvdYDXJF9t2tjbSVHMpo+nolSKO+qsafw=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>guardedalloc_alignment_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/guardedalloc_alignment_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\guardedalloc_alignment_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0117049</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\guardedalloc_alignment_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydkjEPgjAQhff+ihtlgAgkbg4kGgaNGogTYahwEGK5mrbo3xfFEDFq0Ldd771+6fWSea8UooaoohJ8MKiNhkLJGtx7ARnX6LDE7pVCKOSBi66NdK6UpBrJgEZjN6cX8+DOsuEqx5wLITOWQLTfwF3poOOsZXYsFGIgqpIwD26H7qwNdNquxgVgMoVaW19AYVeM5rz1/4Xxvd8wvtdjRk23c4ORhguLjfs/g1zZubwQS56349NWgOLkDDntk3ZBHC8XtxE8cg67Ah/jwZo=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>guardedalloc_overflow_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/guardedalloc_overflow_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\guardedalloc_overflow_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0755236</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\guardedalloc_overflow_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUcFKw0AQve9XzLEFE2ISpAo9FJUiipUWTyGHNZmE4GZWZndb/HvXrBQbtOTdhvdm39s3xfKIEraOqKMWUrBorIGGdQ+XwwCVNBiLIjqihLXSb1IFGmnfsaYeyYJBG7mPkfjkzdZJrrGWSulKFLB9fYYB5QkTP+nqvWHEB7LYIm/2yI3SB78RsHmcuAGzLIHezM94rcMwtrodWGC0jskAOaVuQCEt8/Q6W6R5ki6gIwiyFbP8vACrra8lORPzbzOfMgspJxUHs6vcy4PdXEy7jUXJUa0PJIrfl//v4sCS4pGR/9bLare7v/vu8GcxFl94KrnO====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>bmesh_core_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/bmesh_core_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\bmesh_core_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.107793</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\bmesh_core_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkM0KwjAQhO95ij3aQ4M+gAf/8CD+0KKXUCStqxaajSRbfX2twVKFgnNadj92mFHjVhkkNVFJFxgBo2c4O2s+c6E9SqHiVhksK5vrKpyR7qWzZJAYPHJc337g7svcoL8eC+tQKEj2G3gr6+zldH1AxzOHmhsoaLvqh2AwBOOjf0wDCmxZV5H4LxOjdvHJPkiobmE9RYHTJL9tXhl2kzRdzJugAZXiCbdmc7c=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>alembic_test</Name>
+			<Path>./bin/Release</Path>
+			<FullName>./bin/Release/alembic_test</FullName>
+			<FullCommandLine>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\alembic_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.114986</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\a\1\build_windows_Full_x86_vc15_Release\bin\tests\Release\alembic_test.exe</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyllUtPwkAQgO/9FXOEA40lHPTggSh6MKihGG0bQpYywib7aHangv/eQiO2UB6tc+vsfP12Ju1udLuLCYxSpbhagOcBoSULn0ZL6G4fIGYWretEnV1M4FHoGRP5OqovbrSSqAgsUidN9opvii9ls3gqGRm+diIYvT3DNiaFvHtnkBGONDHiWg23yWAabPAwg/J4ebocgtYVSNuuJQybCMN/CD+CRso/rKk03NBBbWmOnZXq5HvY6/XX3PorlpztsLK8puSd09KPmcCatn2ubm/nBllZ3ri3erZ9rrF2wWX25ze2l/DdJi44LfJaoOw7FG2njHSLSF+gnPF4sE60oXGWL/d4sOyOuUSfyUSgfUiF8JcpEZpya5dS0PIOx3oS9q6v5rioLy1xlYM8PZV8p9XzPHa6EzLTmeuVcqLi7XH81gDDlFs2ZR2+9n1/cL+ZzC/pOj8ZWiEh====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 09 22:59 Coordinated Universal Time</EndDateTime>
+		<EndTestTime>1557442797</EndTestTime>
+		<ElapsedMinutes>6</ElapsedMinutes>
+	</Testing>
+</Site>
